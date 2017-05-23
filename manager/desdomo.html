@@ -10,17 +10,17 @@
 </head>
 <body>
 <div class="item_container">
-    <div class="item item1" data-index="1"><p>1</p></div>
-    <div class="item item2" data-index="2"><p>2</p></div>
-    <div class="item item3" data-index="3"><p>3</p></div>
-    <div class="item item4" data-index="4"><p>4</p></div>
-    <div class="item item5" data-index="5"><p>5</p></div>
-    <div class="item item6" data-index="6"><p>6</p></div>
-    <div class="item item7" data-index="7"><p>7</p></div>
-    <div class="item item8" data-index="8"><p>8</p></div>
-    <div class="item item9" data-index="9"><p>9</p></div>
-    <div class="item item10" data-index="10"><p>10</p></div>
-    <div class="item item11" data-index="11"><p>11</p></div>
+    <div class="item item1" data-index="1" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>1</p></div>
+    <div class="item item2" data-index="2" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>2</p></div>
+    <div class="item item3" data-index="3" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>3</p></div>
+    <div class="item item4" data-index="4" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>4</p></div>
+    <div class="item item5" data-index="5" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>5</p></div>
+    <div class="item item6" data-index="6" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>6</p></div>
+    <div class="item item7" data-index="7" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>7</p></div>
+    <div class="item item8" data-index="8" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>8</p></div>
+    <div class="item item9" data-index="9" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>9</p></div>
+    <div class="item item10" data-index="10" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>10</p></div>
+    <div class="item item11" data-index="11" ondrop="drop(event,this)" ondragover="allowDrop(event)" draggable="true" ondragstart="drag(event,this)"><p>11</p></div>
 </div>
 <div class="input-mask">
     <div class="input-container">
@@ -29,5 +29,29 @@
         <input type="button" id="button" value="确定">
     </div>
 </div>
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    //中间暂存变量
+    var srcdiv = null;
+    function drag(ev,ele)
+    {
+        srcdiv=ele;
+        ev.dataTransfer.setData("text/html",ele.innerHTML);
+    }
+
+    function drop(ev,ele)
+    {
+        console.log("drop")
+        ev.preventDefault();
+        if(srcdiv != ele){
+            srcdiv.innerHTML = ele.innerHTML;
+            ele.innerHTML=ev.dataTransfer.getData("text/html");
+        }
+    }
+
+</script>
 </body>
 </html>
