@@ -38,6 +38,7 @@ window.onload=function () {
         click('#ul-sure-button',ulSureBtnClick)
         click('.delete-btn',deleteLi)
         click('.modify-btn',modifyFun)
+        click('.close-btn',sureBtnClick)
     }
     eventBind()
     //点击单个div，将输入框中的值复制给点击div中的p标签
@@ -80,8 +81,8 @@ window.onload=function () {
                 var newLi = document.createElement('li');
                 newLi.innerHTML =" <p> " + ulInputValue + "</p> " +
                     " <div class=\"icon\"> " +
-                    "<img src=\"img/delete.png\" alt=\"删除\" class=\"delete-btn\" >"+
                     "<img src=\"img/modify.png\" alt=\"修改\" class=\"modify-btn\">" +
+                    "<img src=\"img/delete.png\" alt=\"删除\" class=\"delete-btn\" >"+
                     "</div>";
                 $('#ul-list1').append(newLi)
             }else if($('#ul-list1').hasClass('modifyBtnClick')){
@@ -102,8 +103,15 @@ window.onload=function () {
 
     //删除
     function deleteLi() {
-        var _this = this;
-        $(_this).parent().parent().remove();
+        console.log(1)
+        var deleteValue = confirm("确认删除")
+        if(deleteValue == true){
+            var _this = this;
+            $(_this).parent().parent().remove();
+        }else{
+            return;
+        }
+
     }
 
     //修改
@@ -112,6 +120,11 @@ window.onload=function () {
         $(this).parent().parent().addClass('current')
         $('.ul-input-mask').show();
 
+    }
+
+    function sureBtnClick() {
+        $('.ul-input-mask').hide()
+        $('.input-mask').hide()
     }
 
 
