@@ -7,12 +7,11 @@ window.onload=function () {
         ulInputValue = $('#ul-input').val(),
         beforeInputVal,   //保存输入前的值
         item = [],
-        $ulList1 = $('#ul-list1'),
-        sortable;   //获取限时优惠目的地列表
+        $ulList1 = document.getElementById('ulList1');
     //使用sortable插件进行拖动
     /*global Sortable*/
     if($ulList1){
-        sortable = Sortable.create($ulList1);
+       var sortable = Sortable.create($ulList1);
     }
 
     function addClass(ele,name) {
@@ -25,7 +24,7 @@ window.onload=function () {
         $(ele).on('input',func)
     }
 
-    function eventBind() {
+    (function eventBind() {
         click('.item',desModity);
         click('#button',addDesBtnClick);
         click('#insertEnd',insertEndclick);
@@ -33,8 +32,8 @@ window.onload=function () {
         click('.delete-btn',deleteLi);
         click('.modify-btn',modifyFun);
         click('.close-btn',sureBtnClick)
-    }
-    eventBind()
+    }());
+
     //点击单个div，将输入框中的值复制给点击div中的p标签
     function desModity() {
         var _this = this;
@@ -47,7 +46,7 @@ window.onload=function () {
     function addDesBtnClick() {
         inputValue = $('#input').val();
         //判断是否输入内容
-        if(inputValue === undefined){
+        if(inputValue){
             alert('请输入您要修改的目的地');
             $('.item_container').find('.current').find('p').html(beforeInputVal)
         }else{
@@ -67,7 +66,7 @@ window.onload=function () {
     }
     //点击弹出框的确定按钮
     function ulSureBtnClick() {
-        $('#ul-input').val('');
+
         ulInputValue = $('#ul-input').val();
         //判断用户是否输入
         if(ulInputValue){
@@ -107,6 +106,7 @@ window.onload=function () {
 
     //修改
     function modifyFun() {
+        $('#ul-input').val('');
         $('#ul-list1').addClass('modifyBtnClick');
         $(this).parent().parent().addClass('current');
         $('.ul-input-mask').show();
