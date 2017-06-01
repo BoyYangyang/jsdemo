@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
-<div class="slider_index"><!-- 滚动图 -->
+<div class="slider_index">
     <div class="slider_box_index">
         <ul class="slider_ul_index">
-            <?php foreach($posters as $poster):?>
-            <?php
-                    $poster_url = '';
-                    if(1 == $poster['type']){
-                        $poster_url = $this->createUrl('/web/destination/index', array('id' => $poster['target_id']));
-            }elseif(2 == $poster['type']){
-            $poster_url = $this->createUrl('/web/detail/index', array('id' => $poster['target_id']));
-            }else{
-            $poster_url = $poster['link_url'];
-            }
-            ?>
-            <i></i>
-            <li data-show="<?php echo $poster['show_text']; ?>" data-msg="<?php echo $poster[Yii::t('default/index2','title')]; ?>|<?php echo $poster[Yii::t('default/index2','memo')]; ?>" class="slider_li_index">
-                <a  title="<?php echo $poster[Yii::t('default/index2','title')].$poster[Yii::t('default/index2','memo')]; ?>" href="<?php echo $poster_url;?>">
-                    <img  src="<?php echo Yii::app()->params['static_host']."/".Poster::MOBILE_IMAGE_DIR . "/" . $poster['mobile_image']."#".$poster[Yii::t('default/index2','title')]; ?>" alt="<?php echo $poster['name']; ?>">
-                </a>
+            <li>
+                <img src="1.jpg"/>
             </li>
-            <?php endforeach;?>
+            <li>
+                <img src="2.jpg"/>
+            </li>
+            <li>
+                <img src="3.jpg"/>
+            </li>
+            <li>
+                <img src="4.jpg"/>
+
+            </li>
+            <li>
+                <img src="5.jpg"/>
+            </li>
         </ul>
-        <div class="point_box_index">
-            <div class="slider_point_index"></div>
-        </div>
     </div>
+    <a href="#" class="arr" id="prev"> < </a>
+    <a href="#" class="arr" id="next"> > </a>
 </div>
+<script>
+
+</script>
 </body>
 </html>
