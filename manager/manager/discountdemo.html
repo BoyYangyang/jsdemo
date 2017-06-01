@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.min.js"></script>
+    <script src="../node_modules/sortablejs/Sortable.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<div>
+    <div class="item_container" style="width: 700px;margin-left: -350px">
+        <div class="ul-container">
+            <input type="button" id="insertEnd" value="添加">
+
+            <ul id="ul-list1">
+                <li>
+                    <p>北京</p>
+                    <div class="icon">
+                        <img src="img/delete.png" alt="删除" class="delete-btn" >
+                        <img src="img/modify.png" alt="修改" class="modify-btn">
+                    </div>
+
+                </li>
+                <li>
+                    <p>上海</p>
+                    <div class="icon">
+                        <img src="img/delete.png" alt="删除" class="delete-btn" >
+                        <img src="img/modify.png" alt="修改" class="modify-btn" >
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="ul-input-mask">
+    <div class="ul-input-container">
+        <p>修改目的地</p>
+        <input type="text" id="ul-input">
+        <input type="button" id="ul-sure-button" value="确定">
+    </div>
+</div>
+</body>
+</html>

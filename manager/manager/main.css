@@ -1,0 +1,112 @@
+*{margin:0;padding:0;}
+body{font-size:14px;font-family:"Microsoft YaHei";}
+ul,li{list-style:none;}
+/*精选目的地css开始*/
+#ul-list1 li{
+    cursor: pointer;
+}
+
+.item_container{
+    width: 1000px;
+    position: relative;
+    height: 500px;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 20px;
+}
+.item{display:table;width: 301px;height: 100px;border:1px solid #333;margin: 10px; float:left;}
+.item:hover{
+    background: url("img/modify.png")no-repeat center center;
+    background-color: rgb(209,209,209);
+}
+.item:hover > p{
+    display: none;
+}
+.item p{z-index: 0; display: table-cell;  text-align: center;  height: 100%;  line-height: 100%;  vertical-align: middle;}
+.item4,.item5,.item6{
+    width: 193px;
+}
+.item1,.item2,.item3,.item8,.item9{height: 222px}
+.input-mask,.ul-input-mask,.ul-input-mask2,.ul-input-mask3{
+    display: none;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.input-container,.ul-input-container,.ul-input-container2,.ul-input-container3{
+    padding: 50px;
+    display: inline-block;
+    width: 300px;
+    background: #fff;
+    height: 300px;
+    top: 50%;
+    margin-top: -165px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    text-align: left;
+}
+.input-container p,.ul-input-container2 p,.ul-input-container3 p{
+    width: 300px;
+    font-size: 14px;
+}
+#input,#ul-input,#ul-input2,#ul-input3{
+    margin-top: 10px;
+    height: 16px;
+    width: 286px;
+    padding: 5px;
+}
+input[type=button]{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #4d90fc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+}
+#button,#ul-sure-button,#ul-sure-button2,#ul-sure-button3{
+    right: 50px;
+    position: absolute;
+    margin-top: 20px;
+}
+/*精选目的地css结束*/
+/*限时优惠css开始*/
+#ul-list1{
+    border: 1px solid #cfcece;
+    margin-top: 20px;
+}
+#ul-list1 li:not(:last-child){
+    border-bottom: 1px solid #cfcece;
+}
+#ul-list1 li{
+    height: 40px;
+    line-height: 40px;
+}
+#ul-list1 li p{
+    display: inline-block;
+    margin-left: 10px;
+}
+#ul-list1 li:hover > .icon{
+    display: inline-block;
+}
+.icon{
+
+    display: none;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 10px;
+
+}
+.icon img{
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+/*限时优惠css结束*/
