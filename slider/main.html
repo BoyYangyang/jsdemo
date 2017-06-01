@@ -30,8 +30,119 @@
     <a href="#" class="arr" id="prev"> < </a>
     <a href="#" class="arr" id="next"> > </a>
 </div>
-<script>
+<script type="text/javascript">
+    window.onload = function () {
+        var container = document.getElementById("container");
+        var list = document.getElementById("list");
+        var button = document.getElementById("button").getElementsByTagName('span');
+        var prev = document.getElementById("prev");
+        var next = document.getElementById("next");
+        var index = 1;
+        var animated = false;
+
+        function showButton() {
+            for (var i = 0; i < button.length; i++) {
+                if (button[i].className == 'on') {
+                    button[i].className = '';
+                    break;
+                }
+            }
+            button[index - 1].className = 'on';
+        }
+
+
+        function animate(offset) {
+            animated = true;
+
+            var newLeft = parseInt(list.style.left) + offset;
+            var time = 300;//位移总时间
+            var interval = 10;//位移间隔时间
+            var speed = offset / (time / interval);//每次位移量
+
+            function go() {
+                if ((speed < 0 && parseInt(list.style.left) > newLeft) || (speed > 0 && parseInt(list.style.left) < newLeft)) {
+                    list.style.left = parseInt(list.style.left) + speed + 'px';
+                    setTimeout(go, interval);
+
+                }
+                else {
+                    animated = false;
+                    list.style.left = newLeft + 'px';
+                    if (newLeft > -580) {
+                        list.style.left = -2900 + 'px';
+                    }
+                    if (newLeft < -2900) {
+                        list.style.left = -580 + 'px';
+                    }
+
+                }
+            }
+
+            go();
+
+
+        }
+
+        function play(){
+            timer = setInterval(function(){
+                next.onclick();},3000)
+        }
+
+        function stop(){
+            clearInterval(timer);
+        }
+
+        next.onclick = function () {
+            if (index == 5) {
+                index = 1;
+            }
+            else {
+                index += 1;
+            }
+
+
+            showButton();
+            if (animated == false) {
+                animate(-580);
+            }
+        }
+
+        prev.onclick = function () {
+            if (index == 1) {
+                index = 5;
+            }
+            else {
+                index -= 1;
+            }
+            showButton();
+            if (animated ==false) {
+                animate(580);
+            }
+        }
+
+
+        for (var i = 0; i < button.length; i++) {
+            button[i].onclick = function () {
+                if (this.className == 'on') {
+                    return;
+                }
+                var myIndex = parseInt(this.getAttribute('index'));
+                var offset = (myIndex - index) * (-580);
+
+                index = myIndex;
+                showButton();
+                if(!animated){
+                    animate(offset);
+                }
+            }
+        }
+        container.onmouseover = stop;
+        container.onmouseout =play;
+
+        play();
+    }
 
 </script>
+
 </body>
 </html>
