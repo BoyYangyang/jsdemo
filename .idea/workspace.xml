@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slider/main.html" afterPath="$PROJECT_DIR$/slider/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas-star/index.html" afterPath="$PROJECT_DIR$/canvas-star/index.html" />
     </list>
     <ignored path="jsdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6426">
-              <caret line="238" column="1" lean-forward="false" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="1" />
+            <state relative-caret-position="1134">
+              <caret line="120" column="74" lean-forward="false" selection-start-line="120" selection-start-column="73" selection-end-line="120" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -195,12 +195,12 @@
         <option value="$PROJECT_DIR$/manager/desdomo.html" />
         <option value="$PROJECT_DIR$/manager/main.css" />
         <option value="$PROJECT_DIR$/drag/demo.html" />
-        <option value="$PROJECT_DIR$/canvas-star/index.html" />
         <option value="$PROJECT_DIR$/manager/discountdemo.html" />
         <option value="$PROJECT_DIR$/manager/main.js" />
         <option value="$PROJECT_DIR$/slider/scss/main.scss" />
         <option value="$PROJECT_DIR$/slider/main.js" />
         <option value="$PROJECT_DIR$/slider/main.html" />
+        <option value="$PROJECT_DIR$/canvas-star/index.html" />
       </list>
     </option>
   </component>
@@ -214,8 +214,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-62" />
-    <option name="y" value="12" />
+    <option name="x" value="-63" />
+    <option name="y" value="19" />
     <option name="width" value="1378" />
     <option name="height" value="690" />
   </component>
@@ -311,6 +311,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas-star" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,7 +475,7 @@
       <workItem from="1496323702811" duration="4107000" />
       <workItem from="1496469929177" duration="1232000" />
       <workItem from="1496578596911" duration="180000" />
-      <workItem from="1496667271385" duration="23000" />
+      <workItem from="1496667271385" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="新增demo">
       <created>1493114583915</created>
@@ -631,14 +645,21 @@
       <option name="project" value="LOCAL" />
       <updated>1496578743961</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="增加slider demo">
+      <created>1496667310391</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1496667310391</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135776000" />
+    <option name="totallyTimeSpent" value="136684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-62" y="12" width="1378" height="690" extended-state="0" />
+    <frame x="-63" y="19" width="1378" height="690" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17985074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1001,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slider/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="216">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1052,14 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6426">
-          <caret line="238" column="1" lean-forward="false" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1075,6 +1088,14 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="120" column="74" lean-forward="false" selection-start-line="120" selection-start-column="73" selection-end-line="120" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
