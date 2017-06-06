@@ -3,29 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="../jquery.min.js"></script>
 </head>
 <style>
-    .container{
-        width: 1000px;
-        border: 1px solid red;
-        height: 500px;
-        margin: 0 auto;
+    .Cmsk{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .paypal-loading,.paypal-loading-fail{
         text-align: center;
+        padding: 20px;
+        position: absolute;
+        width: 260px;
+        height: 150px;
+        background: #fff;
+        top: 50%;
+        margin-top: -135px;
+        left: 50%;
+        margin-left: -190px;
+        border: 40px solid rgb(102,102,102);
     }
-    .item1,.item2,.item3{
-        width: 200px;
-        height: 300px;
-        border: 1px solid blue;
-        display: inline-block;
+    .paypal-loading-fail{
+        display: none;
     }
-
-
+    .paypal-loading img,.paypal-loading-fail img{
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+    }
+    .paypal-reload{
+        color: #ff8000;
+        cursor: pointer;
+    }
 </style>
 <body>
-<div class="container">
-    <div class="item1"></div>
-    <div class="item2"></div>
-    <div class="item3"></div>
+<div class="Cmsk">
+    <div class="paypal-loading">
+        <img src="loading60.gif" />
+        <span>正在为您打开Paypal支付，请稍后…</span>
+    </div>
+    <div class="paypal-loading-fail">
+        <img src="reload.png" />
+        <span>加载失败，请 <span class="paypal-reload">重试</span></span>
+    </div>
 </div>
+<script>
+
+</script>
 </body>
 </html>

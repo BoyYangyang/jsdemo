@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="scss/main.css">
+    <script src="../jquery.min.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
-<div class="slider_index">
+<div class="slider_index" id="slider">
     <div class="slider_box_index">
         <ul class="slider_ul_index">
             <li>
@@ -31,6 +33,9 @@
     <a href="#" class="arr" id="next"> > </a>
 </div>
 <script type="text/javascript">
+    $('#slider').slider({
+        sliderUl :
+    })
     window.onload = function () {
         var container = document.getElementById("container");
         var list = document.getElementById("list");
