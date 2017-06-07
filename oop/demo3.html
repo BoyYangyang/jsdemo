@@ -28,7 +28,7 @@
     };
 
     //继承父类
-    SubClass.prototype = new SuperClass() ;
+    var SubClass = new SuperClass() ;
 
     //为子类添加共有方法
     SubClass.prototype.getSubValue= function () {
