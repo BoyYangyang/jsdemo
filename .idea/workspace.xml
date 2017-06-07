@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop/demo2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop/demo3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdemo.iws" />
@@ -26,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slider/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slslider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider/slslider.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oop/demo2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
               <caret line="48" column="63" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="48" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oop/demo3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="47" column="52" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="47" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -194,6 +194,7 @@
         <option value="$PROJECT_DIR$/slider/main.html" />
         <option value="$PROJECT_DIR$/canvas-star/index.html" />
         <option value="$PROJECT_DIR$/oop/demo2.html" />
+        <option value="$PROJECT_DIR$/oop/demo3.html" />
       </list>
     </option>
   </component>
@@ -402,7 +403,7 @@
       <workItem from="1496578596911" duration="180000" />
       <workItem from="1496667271385" duration="1540000" />
       <workItem from="1496762039704" duration="797000" />
-      <workItem from="1496839629160" duration="2729000" />
+      <workItem from="1496839629160" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="新增demo">
       <created>1493114583915</created>
@@ -586,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496668230757</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="增加oop封装">
+      <created>1496848776734</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1496848776734</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140819000" />
+    <option name="totallyTimeSpent" value="142347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -673,7 +681,8 @@
     <MESSAGE value="增加checkbox demo" />
     <MESSAGE value="增加canvas-star demo" />
     <MESSAGE value="增加slider demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加slider demo" />
+    <MESSAGE value="增加oop封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加oop封装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,13 +691,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap-table-master20161026/docs/data1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkbox/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1022,6 +1024,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="48" column="63" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="48" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="47" column="52" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="47" selection-end-column="52" />
           <folding />
         </state>
       </provider>
