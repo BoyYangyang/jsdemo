@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //组合式继承
+    //声明父类
+    var SuperClass = function (name) {
+        this.name = name;
+        this.books=['javascript','html','css']
+    };
+    //声明父类原型上的方法
+    SuperClass.prototype.showBooks = function () {
+        console.log(this.books)
+    };
+
+    //声明子类
+    var SubClass = function (name) {
+        SuperClass.call(this, name)
+
+    };
+
+    //子类继承父类（链式继承）
+    SubClass.prototype = new SuperClass();
+
+    //实例化子类
+    var subclass1 = new SubClass('java');
+    var subclass2 = new SubClass('php');
+    subclass2.showBooks();
+    subclass1.books.push('ios');    //["javascript", "html", "css"]
+    console.log(subclass1.books);  //["javascript", "html", "css", "ios"]
+    console.log(subclass2.books);   //["javascript", "html", "css"]
+
+</script>
+</body>
+</html>
