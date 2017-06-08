@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //构造函数继承
+    //声明父类
+    function SuperClass(id) {
+        this.book=['javascript','html','css'];
+        this.id = id
+    }
+
+    //声明父类原型方法
+    SuperClass.prototype.showBook = function () {
+        console.log(this.books)
+    }
+
+    //声明子类
+    function SubClass(id) {
+        SuperClass.call(this,id)
+    }
+
+    //创建第一个子类实例
+    var subclass1 = new SubClass(10);
+    var subclass2 = new SubClass(11);
+
+    subclass1.showBook();
+    subclass2.showBook();
+
+
+
+</script>
+
+</body>
+</html>

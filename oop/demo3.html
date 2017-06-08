@@ -12,7 +12,9 @@
         this.name = ['javascript'];
         this.superValue = function () {
             console.log('superValue is true')
+            console.log(id)
         }
+
     };
 
     //为父类添加共有方法
@@ -28,7 +30,7 @@
     };
 
     //继承父类
-    var SubClass = new SuperClass() ;
+    SubClass.prototype = new SuperClass() ;
 
     //为子类添加共有方法
     SubClass.prototype.getSubValue= function () {
@@ -41,7 +43,7 @@
     sub.getSuperValue();   //superValue is true
     sub.getSubValue();     //this is subValue
 
-    console.log(sub.id);    //undefined
+    /*console.log(sub.id);*/    //undefined
     console.log(sub.name);  //javascript
 
     sub.name.push('java');  //["javascript"]
