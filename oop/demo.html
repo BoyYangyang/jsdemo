@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Cat(name,color){
+        this.name = name;
+        this.color = color;
+        this.eat = function () {
+            alert('吃老鼠')
+        }
+    }
+    var cat1 = new Cat('Tom','yellow');
+    var cat2 = new Cat('Jerry','red');
+    console.log(cat1.name);
+    console.log(cat2.color);
+    cat1.eat()
+</script>
+</body>
+</html>
