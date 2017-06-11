@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var mix = function () {
+        var i = 1,
+            len = arguments.length,
+            target = arguments[0],
+            arg;
+
+        //遍历被继承的对象
+        for(; i < len;i++){
+            arg = arguments[i];
+            for(var property in arg){
+                //将被继承对象中的属性复制到目标对象上，
+                target[property] = arg[property]
+            }
+        }
+        return target;
+    }
+
+    var book1 = {
+        name:'javascript',
+        alike : ['java','php','html']
+    }
+    var book2 = {
+        color : 'red'
+    }
+    var anotherBook = {
+        id : '10'
+    }
+    mix(anotherBook,book1,book2);
+    console.log(anotherBook.name);     //javascript
+    console.log(anotherBook.alike);    //["java", "php", "html"]
+    console.log(anotherBook.color);    //red
+    console.log(anotherBook.id)        //10
+</script>
+</body>
+</html>

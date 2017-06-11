@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //单继承  属性复制  浅复制
+    var extend = function (target,source) {
+        //遍历对象中的属性
+        for(var property in source){
+            target[property] = source[property];
+            return target;
+        }
+    };
+
+    var book = {
+        name : ['javascript设计模式'],
+        alike : ['css','html','javascript']
+    };
+
+    var anotherBook = {
+        color : 'blue'
+    };
+
+    extend(anotherBook,book)
+    console.log(anotherBook.name);    //javascript设计模式
+    console.log(anotherBook.alike)    //undefined
+    console.log(book.color)           //undefined
+</script>
+</body>
+</html>
