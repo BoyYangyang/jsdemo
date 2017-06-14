@@ -11,6 +11,8 @@
     //单继承  属性复制  浅复制
     var extend = function (target,source) {
         //遍历对象中的属性
+
+
         for(var property in source){
             target[property] = source[property];
             return target;

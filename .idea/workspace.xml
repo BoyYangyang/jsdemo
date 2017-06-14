@@ -89,8 +89,8 @@
       <file leaf-file-name="demo7.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oop/demo7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="378">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -410,7 +410,7 @@
       <workItem from="1497193541408" duration="156000" />
       <workItem from="1497274844722" duration="901000" />
       <workItem from="1497364119484" duration="731000" />
-      <workItem from="1497449700342" duration="598000" />
+      <workItem from="1497449700342" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="新增demo">
       <created>1493114583915</created>
@@ -643,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497364240965</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="增加oop类继承">
+      <created>1497453701497</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1497453701497</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162043000" />
+    <option name="totallyTimeSpent" value="162094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="0" width="1298" height="744" extended-state="0" />
@@ -1058,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/demo7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="378">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
       </provider>
