@@ -406,7 +406,7 @@
       <workItem from="1497774144168" duration="2633000" />
       <workItem from="1497881424826" duration="1473000" />
       <workItem from="1497970552488" duration="35000" />
-      <workItem from="1498045536051" duration="613000" />
+      <workItem from="1498045536051" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="新增demo">
       <created>1493114583915</created>
@@ -695,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497881443525</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="增加oop类继承">
+      <created>1498046170613</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1498046170613</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168819000" />
+    <option name="totallyTimeSpent" value="168825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="6" width="1372" height="1017" extended-state="0" />
