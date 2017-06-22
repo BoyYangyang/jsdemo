@@ -2,6 +2,9 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{jsdemo/node_modules}" />
+    <file url="file://$PROJECT_DIR$/GulpBootStrapSass-master" libraries="{jsdemo/GulpBootStrapSass-master/node_modules}" />
     <file url="file://$PROJECT_DIR$/bootstrap-4-dev" libraries="{jsdemo/bootstrap-4-dev/node_modules}" />
+    <file url="file://$PROJECT_DIR$/bootstrap-sass-master" libraries="{jsdemo/bootstrap-sass-master/node_modules}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
   </component>
 </project>
