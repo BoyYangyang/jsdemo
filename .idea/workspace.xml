@@ -2,13 +2,813 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/gulpfile.babel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/images/boy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_node_mincer/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/log/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-social-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/bs-themes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/components.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/devices.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-lyft.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-newsweek.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-riot.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-vogue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/sass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/gcp-key.json.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/album.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/blog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/carousel.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/cover.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/equal-height-columns.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/grid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/jumbotron-narrow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/jumbotron.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/justified-nav.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/navbar-fixed.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/navbar-static.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/navbar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/non-responsive.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/offcanvas.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/sign-in.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/starter-template.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/sticky-footer-navbar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/sticky-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/theme.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_node_mincer/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/log/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/loading60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap-sprockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap-sprockets.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/affix.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/alert.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/button.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/carousel.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/collapse.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/dropdown.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/modal.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/popover.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/scrollspy.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/tab.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/tooltip.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.tmp/js/bootstrap/transition.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap-sprockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/javascripts/bootstrap/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/_bootstrap-compass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/_bootstrap-mincer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/_bootstrap-sprockets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_badges.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_component-animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_dropdowns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_glyphicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_input-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_modals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_navs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_pager.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_responsive-utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_thumbnails.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/_wells.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_center-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_opacity.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_reset-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/bootstrap-sass.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/gulpfile.babel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/lib/bootstrap-sass.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/lib/bootstrap-sass/engine.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/lib/bootstrap-sass/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/sache.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/bower.rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter/char_string_scanner.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter/fonts_conversion.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter/js_conversion.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter/less_conversion.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter/logger.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/tasks/converter/network.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/templates/project/_bootstrap-variables.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/templates/project/manifest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/templates/project/styles.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/compass_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/compilation_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_node_mincer/application.css.ejs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_node_mincer/manifest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/assets/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/assets/stylesheets/application.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/controllers/pages_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/app/views/pages/root.html.slim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/filter_parameter_logging.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/secret_token.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/session_store.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/initializers/wrap_parameters.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/locales/es.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_rails/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_sass_only/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_sass_only/compile.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/dummy_sass_only/import_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/gemfiles/sass_3_2.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/gemfiles/sass_3_3.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/gemfiles/sass_3_4.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/gemfiles/sass_head.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/node_mincer_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/node_sass_compile_test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/pages_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/sass_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/sprockets_rails_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/support/dummy_rails_integration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/support/reporting.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/test_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GulpBootStrapSass-master/test/test_helper_rails.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.github/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.hound.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.houndignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.scss-lint.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/breakpoints.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/browser-bugs.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/browser-features.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/core-team.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/nav.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/showcase.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_data/translations.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/ads.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/callout-danger-async-methods.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/callout-warning-color-assistive-technologies.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/docs-navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/docs-sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/bootstrap.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/github.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/menu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/slack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/scripts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_includes/social.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/docs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/bugify.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/callout.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/example.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/markdown-block.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/about/brand.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/about/history.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/about/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/about/team.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/about/translations.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-outline.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-punchout.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-solid.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/css/docs.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/css/docs.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/docs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/ie-emulation-modes-warning.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/ie10-viewport-bug-workaround.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/src/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/anchor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/clipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/holder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/jquery-slim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/popper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_ads.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_algolia.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_anchor.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_brand.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_browser-bugs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_callouts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_clipboard-js.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_component-examples.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_content.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_examples.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_featured-sites.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_featurettes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_masthead.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_page-header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_responsive-tests.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_skiplink.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_syntax.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_team.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/docs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/.htmllintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/change-version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/npm-shrinkwrap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/postcss.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/stamp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/build/upload-preview.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/browser-bugs.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/alerts.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/badge.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/breadcrumb.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/button-group.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/buttons.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/card.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/carousel.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/collapse.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/dropdowns.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/forms.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/input-group.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/jumbotron.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/list-group.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/modal.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/navbar.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/navs.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/pagination.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/popovers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/progress.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/scrollspy.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/tooltips.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/code.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/figures.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/images.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/reboot.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/tables.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/typography.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/album/album.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/album/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/blog/blog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/blog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/carousel/carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/carousel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/cover/cover.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/cover/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/dashboard/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/dashboard/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/grid/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/grid/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/jumbotron/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/jumbotron/jumbotron.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/justified-nav/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/justified-nav/justified-nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/narrow-jumbotron/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top-fixed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top-fixed/navbar-top-fixed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top/navbar-top.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbars/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbars/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/offcanvas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/offcanvas/offcanvas.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/offcanvas/offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/signin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/signin/signin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/starter-template/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/starter-template/starter-template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer-navbar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer/sticky-footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/tooltip-viewport/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/tooltip-viewport/tooltip-viewport.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/tooltip-viewport/tooltip-viewport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/extend/approach.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/extend/icons.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/extend/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/accessibility.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/best-practices.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/browsers-devices.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/build-tools.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/contents.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/download.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/introduction.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/javascript.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/options.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/webpack.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/grid.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/media-object.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/overview.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/utilities-for-layout.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/migration.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/borders.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/clearfix.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/close-icon.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/colors.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/display.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/flexbox.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/image-replacement.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/position.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/responsive-helpers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/screenreaders.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/sizing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/spacing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/typography.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/vertical-align.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/visibility.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/.eslintrc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/alert.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/button.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/carousel.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/collapse.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/dropdown.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/modal.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/popover.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/scrollspy.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tab.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tooltip.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/util.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/src/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/.eslintrc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/vendor/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/vendor/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/carousel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/collapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/dropdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/popover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/scrollspy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/tab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/tooltip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/nuget/MyGet.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/nuget/bootstrap.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/nuget/bootstrap.sass.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/sache.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_alert.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_breadcrumb.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_button-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_custom-forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_functions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_images.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_input-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_popover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_reboot.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_transitions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/bootstrap-grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/bootstrap-reboot.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_alert.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_box-shadow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_breakpoints.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_float.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_hover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_lists.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_navbar-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_reset-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_text-hide.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_text-truncate.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_transition.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_background.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_borders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_display.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_flex.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_float.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_position.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_screenreaders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_sizing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_spacing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap-sprockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap-sprockets.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/affix.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/alert.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/button.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/carousel.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/collapse.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/dropdown.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/modal.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/popover.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/scrollspy.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/tab.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/tooltip.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.tmp/js/bootstrap/transition.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap-sprockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/_bootstrap-compass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/_bootstrap-mincer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/_bootstrap-sprockets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_badges.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_component-animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_dropdowns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_glyphicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_input-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_modals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_navs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_pager.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_responsive-utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_thumbnails.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/_wells.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_center-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_opacity.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_progress-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_reset-filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_reset-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_tab-focus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_text-overflow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/bootstrap-sass.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/eyeglass-exports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/lib/bootstrap-sass.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/lib/bootstrap-sass/engine.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/lib/bootstrap-sass/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/sache.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/bower.rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter/char_string_scanner.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter/fonts_conversion.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter/js_conversion.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter/less_conversion.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter/logger.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/tasks/converter/network.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/templates/project/_bootstrap-variables.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/templates/project/manifest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/templates/project/styles.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/compass_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/compilation_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_node_mincer/application.css.ejs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_node_mincer/manifest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/assets/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/assets/stylesheets/application.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/controllers/pages_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/app/views/pages/root.html.slim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/filter_parameter_logging.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/secret_token.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/session_store.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/initializers/wrap_parameters.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/locales/es.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_rails/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_sass_only/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_sass_only/compile.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/dummy_sass_only/import_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/gemfiles/rails_head.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/gemfiles/sass_3_3.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/gemfiles/sass_3_4.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/gemfiles/sass_head.gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/node_mincer_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/node_sass_compile_test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/pages_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/sass_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/sprockets_rails_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/support/dummy_rails_integration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/support/reporting.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/test_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-sass-master/test/test_helper_rails.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsdemo.iws" />
@@ -178,7 +978,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="301" />
+    <option name="x" value="148" />
+    <option name="y" value="4" />
     <option name="width" value="1504" />
     <option name="height" value="1050" />
   </component>
@@ -207,7 +1008,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -257,6 +1057,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +1220,8 @@
       <workItem from="1498045536051" duration="2440000" />
       <workItem from="1498105152987" duration="9873000" />
       <workItem from="1498131997904" duration="2358000" />
-      <workItem from="1498134411531" duration="2000" />
+      <workItem from="1498134411531" duration="39000" />
+      <workItem from="1498180327649" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="新增demo">
       <created>1493114583915</created>
@@ -729,14 +1531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1498114280716</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="增加bootstrap">
+      <created>1498134417315</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1498134417315</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182879000" />
+    <option name="totallyTimeSpent" value="183040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="0" width="1504" height="1050" extended-state="0" />
+    <frame x="148" y="4" width="1504" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24624829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1053,7 +1862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +1869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,16 +1928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1467745630000" expanded="true" signature="1143:1599" ph="{...}" />
-            <marker date="1467745630000" expanded="true" signature="1632:1867" ph="{...}" />
-            <marker date="1467745630000" expanded="true" signature="1897:2078" ph="{...}" />
-            <marker date="1467745630000" expanded="true" signature="2131:2410" ph="{...}" />
-            <marker date="1467745630000" expanded="true" signature="2442:2658" ph="{...}" />
-            <marker date="1467745630000" expanded="true" signature="2689:2893" ph="{...}" />
-            <marker date="1467745630000" expanded="true" signature="2925:3012" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,7 +1935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
