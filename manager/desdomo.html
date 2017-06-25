@@ -51,6 +51,7 @@
         console.log("drop")
         ev.preventDefault();
         if(srcdiv != ele){
+            //
             srcdiv.innerHTML = ele.innerHTML;
             ele.innerHTML=ev.dataTransfer.getData("text/html");
         }
