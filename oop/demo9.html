@@ -8,7 +8,6 @@
 <script>
     // 组合式继承
     // 声明父类
-    //
     function SuperClass(id) {
         var name = 'javascript';
         this.books=['javascript','html','css'];
@@ -17,7 +16,7 @@
     // 声明父类原型方法
     SuperClass.prototype.showBooks = function () {
         console.log(this.books)
-    }
+    };
     // 声明子类
     function SubClass(id) {
         SuperClass.call(this,id)
