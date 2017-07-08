@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/images/confirm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/images/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/images/start.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/quiz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qanda/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qanda/index.html" afterPath="$PROJECT_DIR$/qanda/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qanda/style.css" afterPath="$PROJECT_DIR$/qanda/style.css" />
     </list>
     <ignored path="jsdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -518,14 +513,7 @@
       <workItem from="1499176087213" duration="594000" />
       <workItem from="1499322257327" duration="12421000" />
       <workItem from="1499345374827" duration="1412000" />
-      <workItem from="1499440061901" duration="15000" />
-    </task>
-    <task id="LOCAL-00006" summary="修改css&#10;">
-      <created>1494689556801</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1494689556801</updated>
+      <workItem from="1499440061901" duration="159000" />
     </task>
     <task id="LOCAL-00007" summary="增加checkbox demo">
       <created>1494767975956</created>
@@ -863,11 +851,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499335526786</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="增加问答demo">
+      <created>1499440102672</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1499440102674</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213387000" />
+    <option name="totallyTimeSpent" value="213531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -964,7 +959,8 @@
     <MESSAGE value="增加oop类继承" />
     <MESSAGE value="增加bootstrap" />
     <MESSAGE value="增加51房邮件回复模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加51房邮件回复模板" />
+    <MESSAGE value="增加问答demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加问答demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
