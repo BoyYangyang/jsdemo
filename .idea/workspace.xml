@@ -4,7 +4,6 @@
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qanda/index.html" afterPath="$PROJECT_DIR$/qanda/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qanda/style.css" afterPath="$PROJECT_DIR$/qanda/style.css" />
     </list>
     <ignored path="jsdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,8 +113,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qanda/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="368">
+              <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -136,7 +135,7 @@
       <file leaf-file-name="quiz.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qanda/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
+            <state relative-caret-position="460">
               <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <marker date="1427556982000" expanded="true" signature="2287:2291" ph="&lt;" />
@@ -174,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/table/demo.html" />
         <option value="$PROJECT_DIR$/css3-checkbox-animation/scss/style.scss" />
         <option value="$PROJECT_DIR$/checkbox/scss/main.css" />
         <option value="$PROJECT_DIR$/input/scss/main.scss" />
@@ -225,6 +223,7 @@
         <option value="$PROJECT_DIR$/div/demo1.html" />
         <option value="$PROJECT_DIR$/oop/demo.html" />
         <option value="$PROJECT_DIR$/email-51fang/conult.html" />
+        <option value="$PROJECT_DIR$/qanda/index.html" />
       </list>
     </option>
   </component>
@@ -280,7 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,6 +325,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -514,6 +513,7 @@
       <workItem from="1499322257327" duration="12421000" />
       <workItem from="1499345374827" duration="1412000" />
       <workItem from="1499440061901" duration="159000" />
+      <workItem from="1499701705218" duration="8000" />
     </task>
     <task id="LOCAL-00007" summary="增加checkbox demo">
       <created>1494767975956</created>
@@ -862,7 +862,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213531000" />
+    <option name="totallyTimeSpent" value="213539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1317,7 +1317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qanda/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
+        <state relative-caret-position="460">
           <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
             <marker date="1427556982000" expanded="true" signature="2287:2291" ph="&lt;" />
@@ -1328,8 +1328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qanda/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
