@@ -113,8 +113,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qanda/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="544">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -325,8 +325,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,14 +513,8 @@
       <workItem from="1499322257327" duration="12421000" />
       <workItem from="1499345374827" duration="1412000" />
       <workItem from="1499440061901" duration="159000" />
-      <workItem from="1499701705218" duration="8000" />
-    </task>
-    <task id="LOCAL-00007" summary="增加checkbox demo">
-      <created>1494767975956</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1494767975956</updated>
+      <workItem from="1499701705218" duration="229000" />
+      <workItem from="1499785506552" duration="33000" />
     </task>
     <task id="LOCAL-00008" summary="增加checkbox demo">
       <created>1494773096101</created>
@@ -858,11 +852,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499440102674</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="增加问答demo">
+      <created>1499701726692</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1499701726692</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213539000" />
+    <option name="totallyTimeSpent" value="213793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1328,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qanda/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="544">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
