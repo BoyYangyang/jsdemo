@@ -1,4 +1,7 @@
 ﻿(function($) {
+
+
+    //
     $.fn.jquizzy = function(settings) {
         var defaults = {
             questions: null,
