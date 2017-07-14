@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qanda/index.html" afterPath="$PROJECT_DIR$/qanda/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qanda/quiz.js" afterPath="$PROJECT_DIR$/qanda/quiz.js" />
     </list>
     <ignored path="jsdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -518,14 +516,7 @@
       <workItem from="1499701705218" duration="229000" />
       <workItem from="1499785506552" duration="449000" />
       <workItem from="1499959093168" duration="636000" />
-      <workItem from="1500001683032" duration="645000" />
-    </task>
-    <task id="LOCAL-00011" summary="增加checkbox demo">
-      <created>1495035143744</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1495035143744</updated>
+      <workItem from="1500001683032" duration="676000" />
     </task>
     <task id="LOCAL-00012" summary="增加checkbox demo">
       <created>1495103367728</created>
@@ -863,11 +854,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499959131541</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="增加问答demo">
+      <created>1500037855443</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1500037855443</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215490000" />
+    <option name="totallyTimeSpent" value="215521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
