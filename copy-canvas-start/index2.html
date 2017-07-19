@@ -1,158 +1,324 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Title</title>
     <style>
-        body{
-            padding:0;
-            margin:0;
+        html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
             overflow: hidden;
+            background:black;
+            background:linear-gradient(to bottom,#dcdcdc 0%,palevioletred 100%);
         }
-        #cas{
-            display: block;
-            background-color:rgba(0,0,0,0);
-            margin:auto;
-            border:1px solid;
+        #main-canvas{
+            width:100%;
+            height: 100%;
+        }
+        .filter {
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0;
+            left:0;
+            background:#000;
+            animation:colorChange 30s ease-in-out infinite;
+            animation-fill-mode:both;
+            mix-blend-mode:overlay;
         }
     </style>
-    <title>测试</title>
 </head>
 <body>
-<div >
-    <canvas id='cas' width="800" height="600">浏览器不支持canvas</canvas>
-    <div style="text-align:center">1000个圈圈对象也不卡</div>
-</div>
-
+<canvas id="main-canvas"></canvas>
 <script>
-    var testBox = function(){
-        var canvas = document.getElementById("cas"),
-            ctx = canvas.getContext('2d'),
-            borderWidth = 2,
-            Balls = [];
-        var ball = function(x , y , vx , vy , useCache){
-            this.x = x;
-            this.y = y;
-            this.vx = vx;
-            this.vy = vy;
-            this.r = getZ(getRandom(20,40));
-            this.color = [];
-            this.cacheCanvas = document.createElement("canvas");
-            this.cacheCtx = this.cacheCanvas.getContext("2d");
-            this.cacheCanvas.width = 2*this.r;
-            this.cacheCanvas.height = 2*this.r;
-            var num = getZ(this.r/borderWidth);
-            for(var j=0;j<num;j++){
-                this.color.push("rgba("+getZ(getRandom(0,255))+","+getZ(getRandom(0,255))+","+getZ(getRandom(0,255))+",1)");
-            }
-            this.useCache = useCache;
-            if(useCache){
-                this.cache();
-            }
+
+    /*
+     * @var star_r：半径系数，系数越大，半径越大
+     * @var star_alpha：star的透明度
+     * @var star_alpha：生成star的透明度，star_alpha越大，透明度越低
+     * @var move_distance：star位移的距离，数值越大，位移越大
+     * @var dots运动的速度
+     * @var dot_alpha的透明度
+     * @var initStarsPopulation：初始化stars的个数
+     * @var dotsMinDist：dot最小距离
+     * @var maxDistFromCursor：dot最大距离
+     * @var aReduction：dot消失条件，透明度小于aReduction时消失
+     * */
+    var star_r = 100,
+        star_alpha = 10,
+        move_distance = 0.25,
+        dot_r = 5,
+        dot_speeds = 0.5,
+        dot_alpha = 0.5,
+        dot_aReduction = 0.005,
+        canvas = document.getElementById('main-canvas'),
+        ctx = canvas.getContext('2d'),
+        WIDTH,
+        HEIGHT,
+        mouseMoving = false,
+        mouseMoveChecker,
+        mouseX,
+        mouseY,
+        stars = [],
+        static_stars = [],
+        initStarsPopulation = 400,
+        initStarsStatic = 0,
+        dots = [],
+        dotsMinDist = 5,
+        maxDistFromCursor = 30;
+    /*设置单个star
+     * @param id：id
+     * @param x：x坐标
+     * @param y：y坐标
+     * */
+    function Star(id, x, y, vx , vy ,useCache){
+        this.id = id;
+        this.x = x;
+        this.y = y;
+        this.vx = vx;
+        this.vy = vy;
+        this.useCacha = useCache;
+        this.cacheCanvas = document.createElement("canvas");
+        this.cacheCtx = this.cacheCanvas.getContext("2d");
+        this.r = getZ(getRandom(20,80));
+        this.cacheCanvas.width = 2 * this.r;
+
+        this.cacheCanvas.height = 2 * this.r;
+        var alpha = ( Math.floor( Math.random() * 10 ) + 1)/ star_alpha;
+        this.color = "rgba(255,255,255," + alpha + ")";
+        if(useCache){
+            this.cache()
         }
 
-        function getZ(num){
-            var rounded;
-            rounded = (0.5 + num) | 0;
-            // A double bitwise not.   
-            rounded = ~~ (0.5 + num);
-            // Finally, a left bitwise shift.   
-            rounded = (0.5 + num) << 0;
+    }
 
-            return rounded;
+    function getZ(num){
+        var rounded;
+        rounded = (0.5 + num) | 0;
+        // A double bitwise not.
+        rounded = ~~ (0.5 + num);
+        // Finally, a left bitwise shift.
+        rounded = (0.5 + num) << 0;
+
+        return rounded;
+    }
+
+    Star.prototype.cache = function () {
+        this.cacheCtx.save();
+        this.cacheCtx.fillStyle = this.color;
+        this.cacheCtx.shadowBlur = this.r * 2;
+        this.cacheCtx.beginPath();
+        this.cacheCtx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+        this.cacheCtx.closePath();
+        this.cacheCtx.fill();
+        this.cacheCtx.restore();
+    };
+    
+    Star.prototype.draw = function() {
+        if(!this.useCacha){
+            ctx.save();
+            ctx.fillStyle = this.color;
+            ctx.shadowBlur = this.r * 3;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+        }else{
+            ctx.drawImage(this.cacheCanvas , this.x-this.r , this.y-this.r);
         }
 
-        ball.prototype = {
-            paint:function(ctx){
-                if(!this.useCache){
-                    ctx.save();
-                    var j=0;
-                    ctx.lineWidth = borderWidth;
-                    for(var i=1;i<this.r;i+=borderWidth){
-                        ctx.beginPath();
-                        ctx.strokeStyle = this.color[j];
-                        ctx.arc(this.x , this.y , i , 0 , 2*Math.PI);
-                        ctx.stroke();
-                        j++;
-                    }
-                    ctx.restore();
-                } else{
-                    ctx.drawImage(this.cacheCanvas , this.x-this.r , this.y-this.r);
-                }
-            },
+    };
 
-            cache:function(){
-                this.cacheCtx.save();
-                var j=0;
-                this.cacheCtx.lineWidth = borderWidth;
-                for(var i=1;i<this.r;i+=borderWidth){
-                    this.cacheCtx.beginPath();
-                    this.cacheCtx.strokeStyle = this.color[j];
-                    this.cacheCtx.arc(this.r , this.r , i , 0 , 2*Math.PI);
-                    this.cacheCtx.stroke();
-                    j++;
-                }
-                this.cacheCtx.restore();
-            },
 
-            move:function(){
-                this.x += this.vx;
-                this.y += this.vy;
-                if(this.x>(canvas.width-this.r)||this.x<this.r){
-                    this.x=this.x<this.r?this.r:(canvas.width-this.r);
-                    this.vx = -this.vx;
-                }
-                if(this.y>(canvas.height-this.r)||this.y<this.r){
-                    this.y=this.y<this.r?this.r:(canvas.height-this.r);
-                    this.vy = -this.vy;
-                }
+    Star.prototype.move = function () {
+        this.y -= 0;/*move_distance*/
+        if(this.y <= -10){
+            this.y += HEIGHT + 10;
+        }
+        this.draw();
+    };
 
-                this.paint(ctx);
-            }
+    Star.prototype.die = function () {
+        stars[this.id] = null;
+        delete stars[this.id]
+    };
+
+    /*function Dot(id, x, y, r) {
+     this.id = id;
+     this.x = x;
+     this.y = y;
+     this.r = Math.floor(Math.random()* dot_r )+1;
+     this.speed = dot_speeds;
+     this.a = dot_alpha;
+     this.aReduction = dot_aReduction;
+     this.color = "rgba(255,255,255," + this.alpha + ")";
+     this.linkColor = "rgba(255,255,255," + this.alpha/4 + ")";
+     this.dir = Math.floor(Math.random()*140)+200;
+
+     }
+
+     Dot.prototype.draw = function () {
+     if(this.id == 0){
+     return
+     }
+     ctx.fillStyle = this.color;
+     ctx.shadowBlur = this.r * 2;
+     ctx.beginPath();
+     ctx.arc(this.x, this.y, this.r , 0, Math.PI * 2 ,false);
+     ctx.closePath();
+     ctx.fill();
+     };
+
+     Dot.prototype.link = function() {
+     if (this.id == 0) return;
+     var previousDot1 = getPreviousDot(this.id, 1);
+     var previousDot2 = getPreviousDot(this.id, 2);
+     var previousDot3 = getPreviousDot(this.id, 3);
+
+
+     if (!previousDot1) return;
+     ctx.strokeStyle = this.linkColor;
+     ctx.moveTo(previousDot1.x, previousDot1.y);
+     ctx.beginPath();
+     ctx.lineTo(this.x, this.y);
+     if (previousDot2 != false) ctx.lineTo(previousDot2.x, previousDot2.y);
+     if (previousDot3 != false) ctx.lineTo(previousDot3.x, previousDot3.y);
+     ctx.stroke();
+     ctx.closePath();
+     };*/
+
+    /*
+     * 获取dot的前stepback元素
+     * @param id：dot的id
+     * @param stepback：dot的前stepback个元素
+     * @return 如果dot的前stepback元素存在则返回，不存在返回false；id=0返回false*/
+    /*function getPreviousDot(id,stepback) {
+     if(id == 0 || id - stepback < 0){
+     return false;
+     }
+     if(typeof dots[id - stepback] != "undefined"){
+     return dots[id - stepback]
+     }else {
+     return false;
+     }
+
+     }
+
+     Dot.prototype.move = function() {
+     this.a -= this.aReduction;
+     if (this.a <= 0) {
+     this.die();
+     return
+     }
+     this.color = "rgba(255,255,255,"+this.a+")";
+     this.linkColor = "rgba(255,255,255,"+this.a/4+")";
+
+     this.x = this.x + Math.cos(degToRad(this.dir))*this.speed;
+     this.y = this.y + Math.sin(degToRad(this.dir))*this.speed;
+
+
+     this.draw();
+     this.link();
+     };
+
+     Dot.prototype.die = function () {
+     dots[this.id] = null;
+     delete  dots[this.id]
+     };*/
+
+    setCanvasSize();
+    init();
+
+    function setCanvasSize() {
+        WIDTH = document.documentElement.clientWidth;
+        HEIGHT = document.documentElement.clientHeight;
+        canvas.setAttribute("width", WIDTH);
+        canvas.setAttribute("height", HEIGHT);
+
+    }
+
+    function init() {
+
+        for(var i = 0; i < initStarsPopulation; i++){
+            var b= new Star(i ,Math.floor(Math.random() * WIDTH), Math.floor(Math.random() * HEIGHT), getRandom(-10 , 10) ,  getRandom(-10 , 10) , true);
+            stars.push(b)
         }
 
-        var Game = {
-            init:function(){
-                for(var i=0;i<10;i++){
-                    var b = new ball(getRandom(0,canvas.width) , getRandom(0,canvas.height) , getRandom(-10 , 10) ,  getRandom(-10 , 10) , true)
-                    Balls.push(b);
-                }
-            },
-
-            update:function(){
-                ctx.clearRect(0,0,canvas.width,canvas.height);
-                for(var i=0;i<Balls.length;i++){
-                    Balls[i].move();
-                }
-            },
-
-            loop:function(){
-                var _this = this;
-                this.update();
-                RAF(function(){
-                    _this.loop();
-                })
-            },
-
-            start:function(){
-                this.init();
-                this.loop();
-            }
+        for(var i = 0; i < initStarsStatic; i++){
+            static_stars[i] = new Star(i ,Math.floor(Math.random() * WIDTH), Math.floor(Math.random() * HEIGHT),true);
+            static_stars[i].draw();
         }
-
-        window.RAF = (function(){
-            return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {window.setTimeout(callback, 1000 / 60); };
-        })();
-
-        return Game;
-    }();
-
+        ctx.shadowBlur = 0;
+        animate();
+    }
     function getRandom(a , b){
         return Math.random()*(b-a)+a;
     }
+    function animate() {
+        ctx.clearRect(0, 0, WIDTH, HEIGHT);
+        for(var i in stars){
+            stars[i].move();
+        }
+        for(var i in static_stars){
+            static_stars[i].draw();
+        }
 
-    window.onload = function(){
-        testBox.start();
+        /*for(var i in dots){
+         dots[i].move()
+         }*/
+        /*drawIfMouseMoving();*/
+        requestAnimationFrame(animate)
     }
+
+    window.onmousemove = function(e){
+        mouseMoving = true;
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        clearInterval(mouseMoveChecker);
+        mouseMoveChecker = setTimeout(function() {
+            mouseMoving = false;
+        }, 100);
+    };
+
+    /*function drawIfMouseMoving(){
+     if (!mouseMoving) return;
+
+     if (dots.length == 0) {
+     dots[0] = new Dot(0, mouseX, mouseY);
+     dots[0].draw();
+     return;
+     }
+
+     var previousDot = getPreviousDot(dots.length, 1);
+
+     var prevX = previousDot.x;
+     var prevY = previousDot.y;
+     var diffX = Math.abs(prevX - mouseX);
+     var diffY = Math.abs(prevY - mouseY);
+
+     if (diffX < dotsMinDist || diffY < dotsMinDist) {
+     return;
+     }else{
+     var xVariation = Math.random() > .5 ? -1 : 1;
+     xVariation = xVariation*Math.floor(Math.random() * maxDistFromCursor)+1;
+     var yVariation = Math.random() > .5 ? -1 : 1;
+     yVariation = yVariation*Math.floor(Math.random() * maxDistFromCursor)+1;
+     dots[dots.length] = new Dot(dots.length, mouseX+xVariation, mouseY+yVariation);
+     dots[dots.length-1].draw();
+     dots[dots.length-1].link();
+     }
+
+
+     }
+     function degToRad(deg) {
+     return deg * (Math.PI / 180);
+     }*/
+
+
+
 </script>
 </body>
-</html>  
+</html>
