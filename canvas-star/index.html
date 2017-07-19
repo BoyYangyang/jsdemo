@@ -75,7 +75,7 @@ Star.prototype.draw = function() {
 };
 
 Star.prototype.move = function() {
-	this.y -= .15;
+	this.y -= 5;
 	if (this.y <= -10) this.y = HEIGHT + 10;
 	this.draw();
 };
@@ -164,7 +164,7 @@ var canvas  = document.getElementById('canvas'),
 	mouseX,
 	mouseY,
 	stars = [],
-	initStarsPopulation = 80,
+	initStarsPopulation = 1000,
 	dots = [],
 	dotsMinDist = 2,
 	maxDistFromCursor = 50;

@@ -63,7 +63,7 @@
         mouseY,
         stars = [],
         static_stars = [],
-        initStarsPopulation = 400,
+        initStarsPopulation = 1000,
         initStarsStatic = 0,
         dots = [],
         dotsMinDist = 5,
@@ -73,19 +73,16 @@
      * @param x：x坐标
      * @param y：y坐标
      * */
-    function Star(id, x, y, vx , vy ,useCache){
+    function Star(id, x, y, useCache){
         this.id = id;
         this.x = x;
         this.y = y;
-        this.vx = vx;
-        this.vy = vy;
         this.useCacha = useCache;
         this.cacheCanvas = document.createElement("canvas");
         this.cacheCtx = this.cacheCanvas.getContext("2d");
-        this.r = getZ(getRandom(20,80));
-        this.cacheCanvas.width = 2 * this.r;
-
-        this.cacheCanvas.height = 2 * this.r;
+        this.r = Math.floor(Math.random()*3)+1;
+        this.cacheCanvas.width = 2 *this.r;
+        this.cacheCanvas.height = 2 *this.r;
         var alpha = ( Math.floor( Math.random() * 10 ) + 1)/ star_alpha;
         this.color = "rgba(255,255,255," + alpha + ")";
         if(useCache){
@@ -105,36 +102,38 @@
         return rounded;
     }
 
-    Star.prototype.cache = function () {
-        this.cacheCtx.save();
-        this.cacheCtx.fillStyle = this.color;
-        this.cacheCtx.shadowBlur = this.r * 2;
-        this.cacheCtx.beginPath();
-        this.cacheCtx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
-        this.cacheCtx.closePath();
-        this.cacheCtx.fill();
-        this.cacheCtx.restore();
-    };
+
     
     Star.prototype.draw = function() {
         if(!this.useCacha){
             ctx.save();
             ctx.fillStyle = this.color;
-            ctx.shadowBlur = this.r * 3;
+            ctx.shadowBlur = this.r * 2;
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
             ctx.closePath();
             ctx.fill();
             ctx.restore();
         }else{
-            ctx.drawImage(this.cacheCanvas , this.x-this.r , this.y-this.r);
+
+            ctx.drawImage(this.cacheCanvas , this.x , this.y);
         }
 
     };
 
+    Star.prototype.cache = function () {
+        this.cacheCtx.save();
+        this.cacheCtx.fillStyle = this.color;
+        this.cacheCtx.shadowBlur = this.r * 2;
+        this.cacheCtx.beginPath();
+        this.cacheCtx.arc(this.r , this.r , this.r, 0 , 2*Math.PI);
+        this.cacheCtx.closePath();
+        this.cacheCtx.fill();
+        this.cacheCtx.restore();
+    };
 
     Star.prototype.move = function () {
-        this.y -= 0;/*move_distance*/
+        this.y -= 5;
         if(this.y <= -10){
             this.y += HEIGHT + 10;
         }
@@ -243,12 +242,11 @@
     function init() {
 
         for(var i = 0; i < initStarsPopulation; i++){
-            var b= new Star(i ,Math.floor(Math.random() * WIDTH), Math.floor(Math.random() * HEIGHT), getRandom(-10 , 10) ,  getRandom(-10 , 10) , true);
-            stars.push(b)
+            stars[i]= new Star(i ,Math.floor(Math.random() * WIDTH), Math.floor(Math.random() * HEIGHT) , true);
         }
 
         for(var i = 0; i < initStarsStatic; i++){
-            static_stars[i] = new Star(i ,Math.floor(Math.random() * WIDTH), Math.floor(Math.random() * HEIGHT),true);
+            static_stars[i] = new Star(i ,Math.floor(Math.random() * WIDTH), Math.floor(Math.random() * HEIGHT));
             static_stars[i].draw();
         }
         ctx.shadowBlur = 0;

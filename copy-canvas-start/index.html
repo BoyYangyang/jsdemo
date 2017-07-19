@@ -63,7 +63,7 @@
         mouseY,
         stars = [],
         static_stars = [],
-        initStarsPopulation = 400,
+        initStarsPopulation = 40,
         initStarsStatic = 0,
         dots = [],
         dotsMinDist = 5,
@@ -99,6 +99,7 @@
             this.y += HEIGHT + 10;
         }
         this.draw();
+
     };
 
     Star.prototype.die = function () {
@@ -228,6 +229,7 @@
             dots[i].move()
         }*/
         /*drawIfMouseMoving();*/
+
         requestAnimationFrame(animate)
     }
 

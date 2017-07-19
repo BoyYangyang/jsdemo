@@ -3,8 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background:black;
+            background:linear-gradient(to bottom,#dcdcdc 0%,palevioletred 100%);
+        }
+        #canvas{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
+<canvas id="canvas"></canvas>
+<script>
+var starCanvas = function () {
+    var canvas = document.getElementById("canvas"),
+        ctx = canvas.getContext('2d'),
+        stars = [];
 
+    Star = function (x, y, vx, vy, useCache) {
+        this.x = x;
+        this.y = y;
+        this.vx = vx;
+        this.vy = vy;
+        this.r = Math.floor(Math.random()*3)+1;
+        this.cacheCanvas = document.createElement("canvas");
+        this.cacheCtx = this.cacheCanvas.getContext("2d");
+        this.cacheCanvas.width = 2 * this.r;
+        this.cacheCanvas.height = 2 * this.r;
+        var alpha = ( Math.floor(Math.random() * 10) + 1) / 10;
+        this.color = "rgba(255,255,255," + alpha +")";
+        this.useCache = useCache;
+        if (useCache) {
+            this.cache()
+        }
+    };
+
+    Star.prototype = {
+        paint: function (ctx) {
+            if (!this.useCache) {
+                ctx.fillStyle = this.color;
+                ctx.shadowBlur = this.r * 2;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+                ctx.closePath();
+                ctx.fill();
+
+            } else {
+                ctx.drawImage(this.cacheCanvas, this.x - this.r, this.y - this.r);
+            }
+        },
+
+        cache: function () {
+            this.cacheCtx.save();
+            this.cacheCtx.fillStyle = this.color;
+            this.cacheCtx.shadowBlur = this.r * 2;
+            this.cacheCtx.beginPath();
+            this.cacheCtx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+            this.cacheCtx.closePath();
+            this.cacheCtx.fill();
+            this.cacheCtx.restore();
+        },
+
+        move: function () {
+            this.y -= 0;
+            /*move_distance*/
+            if (this.y <= -10) {
+                this.y += HEIGHT + 10;
+            }
+            this.paint(ctx);
+        },
+    };
+
+    var Game = {
+        init: function () {
+            for (var i = 0; i < 100; i++) {
+                var b = new Star(getRandom(0, canvas.width), getRandom(0, canvas.height), getRandom(-10, 10), getRandom(-10, 10),false);
+                stars.push(b);
+            }
+        },
+        update: function () {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < Star.length; i++) {
+                stars[i].move();
+            }
+        },
+        loop: function () {
+            var _this = this;
+            this.update();
+            RAF(function () {
+                _this.loop();
+            })
+        },
+        start: function () {
+            this.init();
+            this.loop();
+        }
+    };
+
+    window.RAF = (function () {
+        return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
+                window.setTimeout(callback, 1000 / 60);
+            };
+    })();
+
+    return Game;
+}();
+    function getRandom(a , b){
+        return Math.random()*(b-a)+a;
+    }
+    function getZ(num){
+        var rounded;
+        rounded = (0.5 + num) | 0;
+        // A double bitwise not.
+        rounded = ~~ (0.5 + num);
+        // Finally, a left bitwise shift.
+        rounded = (0.5 + num) << 0;
+
+        return rounded;
+    }
+
+window.onload = function(){
+    starCanvas.start();
+}
+</script>
 </body>
 </html>
