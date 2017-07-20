@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copy-canvas-start/index5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copy-canvas-start/index6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas-star/index.html" afterPath="$PROJECT_DIR$/canvas-star/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy-canvas-start/index.html" afterPath="$PROJECT_DIR$/copy-canvas-start/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy-canvas-start/index2.html" afterPath="$PROJECT_DIR$/copy-canvas-start/index2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy-canvas-start/index4.html" afterPath="$PROJECT_DIR$/copy-canvas-start/index4.html" />
     </list>
     <ignored path="jsdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="299">
+              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/copy-canvas-start/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state relative-caret-position="1633">
+              <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="index3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/copy-canvas-start/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
+            <state relative-caret-position="567">
               <caret line="81" column="69" lean-forward="false" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="69" />
               <folding />
             </state>
@@ -95,15 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drawIfMouseMoving</find>
-      <find>requestAnimationFrame</find>
-      <find>strokeStyle</find>
-      <find>dotsMinDist</find>
-      <find>dir</find>
-      <find>previousDot1</find>
-      <find>stepback</find>
-      <find>draw</find>
-      <find>move</find>
       <find>dot_r</find>
       <find>dot_speeds</find>
       <find>getPreviousDot</find>
@@ -112,7 +103,6 @@
       <find>&lt;&lt;&lt;</find>
       <find>static-banner-slide1</find>
       <find>static-banner-slide</find>
-      <find>maxDistFromCursor</find>
       <find>cacheCanvas</find>
       <find>maxLinks</find>
       <find>thisthis</find>
@@ -124,7 +114,17 @@
       <find>vx</find>
       <find>initStarsPopulation</find>
       <find>true</find>
+      <find>stars</find>
       <find>aReduction</find>
+      <find>drawIfMouseMoving</find>
+      <find>mouseY</find>
+      <find>xVariation</find>
+      <find>ctx</find>
+      <find>linkColor</find>
+      <find>maxDistFromCursor</find>
+      <find>shadowColor</find>
+      <find>speed</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace>this</replace>
@@ -139,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/checkbox/demo4.html" />
-        <option value="$PROJECT_DIR$/checkbox/demo5.html" />
         <option value="$PROJECT_DIR$/checkbox/scss/main2.scss" />
         <option value="$PROJECT_DIR$/checkbox/scss/main3.scss" />
         <option value="$PROJECT_DIR$/checkbox/demo6.html" />
@@ -188,6 +186,8 @@
         <option value="$PROJECT_DIR$/copy-canvas-start/index3.html" />
         <option value="$PROJECT_DIR$/copy-canvas-start/index4.html" />
         <option value="$PROJECT_DIR$/copy-canvas-start/index.html" />
+        <option value="$PROJECT_DIR$/copy-canvas-start/index5.html" />
+        <option value="$PROJECT_DIR$/copy-canvas-start/index6.html" />
         <option value="$PROJECT_DIR$/canvas-star/index.html" />
         <option value="$PROJECT_DIR$/copy-canvas-start/index2.html" />
       </list>
@@ -296,6 +296,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="copy-canvas-start" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas-star" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -507,14 +521,7 @@
       <workItem from="1500001683032" duration="3326000" />
       <workItem from="1500172826079" duration="1627000" />
       <workItem from="1500261234853" duration="39722000" />
-      <workItem from="1500433932632" duration="15839000" />
-    </task>
-    <task id="LOCAL-00018" summary="增加canvas-star demo">
-      <created>1496155667934</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1496155667934</updated>
+      <workItem from="1500433932632" duration="44969000" />
     </task>
     <task id="LOCAL-00019" summary="增加canvas-star demo">
       <created>1496156225553</created>
@@ -852,11 +859,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500442125935</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="增加canvasStar优化缓存成功，index2&#10;">
+      <created>1500456686115</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1500456686115</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275359000" />
+    <option name="totallyTimeSpent" value="304489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +885,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2483108" sideWeight="0.5086562" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -889,6 +903,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2483108" sideWeight="0.5086562" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38518518" sideWeight="0.49134377" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32374102" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5427902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -939,29 +972,16 @@
     <MESSAGE value="增加函数式编程demo" />
     <MESSAGE value="增加canvasStar" />
     <MESSAGE value="增加canvasStar优化缓存&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加canvasStar优化缓存&#10;" />
+    <MESSAGE value="增加canvasStar优化缓存成功，index2&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加canvasStar优化缓存成功，index2&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manager/discountdemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functional/demo2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canvas2/js/Stats.min.js" />
     <entry file="file://$PROJECT_DIR$/canvas2/js/TweenMax.min.js" />
     <entry file="file://$PROJECT_DIR$/bootstrap-sass-master/assets/javascripts/bootstrap/affix.js">
@@ -1226,6 +1246,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,14 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/copy-canvas-start/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="81" column="69" lean-forward="false" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4347">
@@ -1279,18 +1294,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/copy-canvas-start/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy-canvas-start/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="81" column="69" lean-forward="false" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy-canvas-start/index6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5198">
+          <caret line="278" column="0" lean-forward="true" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="299">
+          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="1633">
+          <caret line="71" column="29" lean-forward="false" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
           <folding />
         </state>
       </provider>
