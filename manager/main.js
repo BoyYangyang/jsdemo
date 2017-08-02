@@ -75,8 +75,8 @@ window.onload=function () {
                 var newLi = document.createElement('li');
                 newLi.innerHTML ='<p>' + ulInputValue + '</p>' +
                     '<div class="icon">' +
-                    '<img src="img/modify.png" alt="修改" class="modify-btn">' +
-                    '<img src="img/delete.png" alt="删除" class="delete-btn" >'+
+                    '<img src="../sl-index-manager/img/modify.png" alt="修改" class="modify-btn">' +
+                    '<img src="../sl-index-manager/img/delete.png" alt="删除" class="delete-btn" >'+
                     '</div>';
                 $('#ul-list1').append(newLi)
             }else if($('#ul-list1').hasClass('modifyBtnClick')){
