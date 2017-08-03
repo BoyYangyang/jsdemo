@@ -2,770 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3-stars/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3-stars/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3-stars/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copy-canvas-start/mydialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copy-canvas-start/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/copy-canvas-start/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3-stars/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3-stars/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.github/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.hound.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.houndignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.scss-lint.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/breakpoints.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/browser-bugs.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/browser-features.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/core-team.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/nav.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/showcase.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_data/translations.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/ads.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/callout-danger-async-methods.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/callout-warning-color-assistive-technologies.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/docs-navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/docs-sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/bootstrap.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/github.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/slack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/icons/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/scripts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_includes/social.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/docs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_layouts/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/bugify.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/callout.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/example.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/_plugins/markdown-block.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/about/brand.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/about/history.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/about/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/about/team.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/about/translations.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-outline.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-punchout.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-social-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-social.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/brand/bootstrap-solid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/css/docs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/css/docs.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/bs-themes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/components.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/devices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-lyft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-newsweek.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-riot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/expo-vogue.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/img/sass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/docs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/ie-emulation-modes-warning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/src/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/anchor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/clipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/holder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/jquery-slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/js/vendor/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_ads.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_algolia.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_anchor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_brand.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_browser-bugs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_callouts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_clipboard-js.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_component-examples.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_examples.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_featured-sites.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_featurettes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_masthead.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_page-header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_responsive-tests.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_skiplink.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_syntax.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_team.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/assets/scss/docs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/.htmllintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/change-version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/gcp-key.json.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/npm-shrinkwrap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/postcss.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/stamp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/build/upload-preview.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/browser-bugs.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/alerts.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/badge.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/breadcrumb.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/button-group.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/buttons.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/card.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/carousel.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/collapse.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/dropdowns.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/forms.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/input-group.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/jumbotron.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/list-group.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/modal.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/navbar.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/navs.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/pagination.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/popovers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/progress.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/scrollspy.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/components/tooltips.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/code.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/figures.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/images.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/reboot.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/tables.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/content/typography.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/album/album.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/album/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/blog/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/carousel/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/carousel/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/cover/cover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/cover/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/dashboard/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/grid/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/grid/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/jumbotron/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/jumbotron/jumbotron.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/justified-nav/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/justified-nav/justified-nav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/narrow-jumbotron/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top-fixed/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top-fixed/navbar-top-fixed.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbar-top/navbar-top.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbars/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/navbars/navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/offcanvas/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/offcanvas/offcanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/offcanvas/offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/album.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/blog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/carousel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/dashboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/equal-height-columns.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/grid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/jumbotron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/justified-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/navbar-fixed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/navbar-static.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/non-responsive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/offcanvas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/sign-in.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/starter-template.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/sticky-footer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/screenshots/theme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/signin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/signin/signin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/starter-template/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/starter-template/starter-template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer-navbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/sticky-footer/sticky-footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/tooltip-viewport/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/extend/approach.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/extend/icons.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/extend/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/accessibility.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/best-practices.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/browsers-devices.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/build-tools.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/contents.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/download.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/introduction.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/javascript.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/options.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/getting-started/webpack.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/grid.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/media-object.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/overview.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/layout/utilities-for-layout.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/migration.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/borders.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/clearfix.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/close-icon.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/colors.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/display.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/flexbox.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/image-replacement.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/position.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/responsive-helpers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/screenreaders.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/sizing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/spacing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/typography.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/vertical-align.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/docs/4.0/utilities/visibility.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/alert.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/button.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/carousel.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/collapse.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/dropdown.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/popover.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/scrollspy.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tab.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/tooltip.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/dist/util.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/unit/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/vendor/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/vendor/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/collapse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/dropdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/popover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/scrollspy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/js/tests/visual/tooltip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/nuget/MyGet.ps1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/nuget/bootstrap.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/nuget/bootstrap.sass.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/package.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/sache.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_button-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_card.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_close.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_code.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_images.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_input-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_responsive-embed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/bootstrap-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/bootstrap-reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_background-variant.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_navbar-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_reset-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_resize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_table-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_text-hide.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/mixins/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_borders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_display.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_flex.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-4-dev/scss/utilities/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/assets/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/bootstrap-table.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/data2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/docs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/examples.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/jquery插件库.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/src/bootstrap-table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/src/bootstrap-table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-table-master20161026/www.jq22.com.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/500.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/badges_labels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/basic_gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/chat_view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/code_editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/demo/webuploader-demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/patterns/header-profile-skin-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/patterns/header-profile-skin-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/patterns/header-profile-skin-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/patterns/header-profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/patterns/shattered.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/chosen/chosen-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/chosen/chosen-sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/chosen/chosen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/codemirror/ambiance.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/dataTables/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/datapicker/datepicker3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/dropzone/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/dropzone/dropzone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/fullcalendar/fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/iCheck/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/iCheck/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/iCheck/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/images/sprite-skin-flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/images/spritemap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/images/spritemap@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jqgrid/ui.jqgrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jsTree/32px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/jsTree/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/markdown/bootstrap-markdown.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/morris/morris-0.4.3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/nouslider/jquery.nouislider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/simditor/simditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/steps/jquery.steps.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/summernote/summernote-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/summernote/summernote.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/switchery/switchery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/toastr/toastr.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/treeview/bootstrap-treeview.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/plugins/webuploader/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/css_animation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/draggable_panels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/empty_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/file_manager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/fonts/fontawesome-webfont.eot_v=4.3.0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/fonts/fontawesome-webfont.woff2_v=4.3.0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/fonts/fontawesome-webfont.woff_v=4.3.0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_advanced.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_avatar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_builder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_editors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_file_upload.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_simditor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_validate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_webuploader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/form_wizard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/forum_main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/graph_echarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/graph_flot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/graph_morris.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/graph_peity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/graph_rickshaw.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/graph_sparkline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/grid_options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/iconfont.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/a9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/alipay_qr_code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/iconfont-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/index_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/loading-upload.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p_big1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p_big2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/p_big3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/profile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/profile_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/profile_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/qr_code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/img/wenku_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/index_1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/index_2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/index_3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/index_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/invoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/invoice_print.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/echarts-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/flot-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/layer-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/morris-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/peity-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/rickshaw-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/sparkline-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/treeview-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/demo/webuploader-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/hplus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/jquery-2.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/jquery-ui-1.10.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/jquery-ui.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/chartJs/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/chosen/chosen.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/dataTables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/dropzone/dropzone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/echarts/echarts-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/fancybox_loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/fancybox_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/fancybox_sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/curvedLines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/gritter/images/gritter-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/gritter/images/gritter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/gritter/jquery.gritter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/iCheck/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jqgrid/jquery.jqGrid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jsTree/jstree.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/laydate/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/layer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/layim/layim.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/layim/layim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/layim/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/default/xubox_ico0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/default/xubox_loading0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/default/xubox_loading1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/default/xubox_loading2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/default/xubox_loading3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/default/xubox_title0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/layer/skin/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/markdown/bootstrap-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/markdown/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/markdown/to-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/morris/morris.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/nestable/jquery.nestable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/pace/pace.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/peity/jquery.peity.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/simditor/hotkeys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/simditor/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/simditor/simditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/simditor/uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/staps/jquery.steps.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/summernote/summernote-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/summernote/summernote.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/switchery/switchery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/toastr/toastr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/treeview/bootstrap-treeview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/validate/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/validate/messages_zh.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/js/plugins/webuploader/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/layer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/layerdate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/layouts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/lockscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/mail_compose.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/mail_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/mailbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/modal_window.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/nestable_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/notifications.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/pin_board.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/plugins/fullavatareditor/scripts/fullAvatarEditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/plugins/fullavatareditor/scripts/jQuery.Cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/plugins/fullavatareditor/scripts/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/plugins/fullavatareditor/scripts/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/project_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/search_results.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/table_basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/table_data_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/table_jqgrid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/tabs_panels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/timeline_v2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/toastr_notifications.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/tools/form-builder/beautifyhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/tree_view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/tree_view_v2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/validation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/webim.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/widgets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkbox/demo2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/copy-canvas-start/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/copy-canvas-start/index4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/copy-canvas-start/index5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/copy-canvas-start/index7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/scss/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/scss/main.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slider/slslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/table/data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/table/demo.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/fonts/fontawesome-webfont.svg_v=4.3.0" afterPath="$PROJECT_DIR$/css3-stars/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap_htmb_v2.2/font-awesome/fonts/fontawesome-webfont.ttf_v=4.3.0" afterPath="$PROJECT_DIR$/css3-stars/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/checkbox/demo.html" afterPath="$PROJECT_DIR$/checkbox/input.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/checkbox/demo3.html" afterPath="$PROJECT_DIR$/checkbox/checkbox.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/checkbox/demo4.html" afterPath="$PROJECT_DIR$/checkbox/slider-checkbox.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/checkbox/demo5.html" afterPath="$PROJECT_DIR$/checkbox/ios-checkbox.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/checkbox/demo6.html" afterPath="$PROJECT_DIR$/checkbox/rounded-chexkbox.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/copy-canvas-start/index2.html" afterPath="$PROJECT_DIR$/copy-canvas-start/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/copy-canvas-start/index3.html" afterPath="$PROJECT_DIR$/copy-canvas-start/cache-optimization.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/copy-canvas-start/index6.html" afterPath="$PROJECT_DIR$/copy-canvas-start/cache-star.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/validate/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo2.html" afterPath="$PROJECT_DIR$/validate/demo2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo4.html" afterPath="$PROJECT_DIR$/validate/demo4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/div/demo1.html" afterPath="$PROJECT_DIR$/sl-index-manager/demo1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/div/demo2.html" afterPath="$PROJECT_DIR$/sl-index-manager/demo2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/demo.html" afterPath="$PROJECT_DIR$/html5-css3-input-styles/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/demo2.html" afterPath="$PROJECT_DIR$/html5-css3-input-styles/demo2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/loading.gif" afterPath="$PROJECT_DIR$/html5-css3-input-styles/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/loading2.gif" afterPath="$PROJECT_DIR$/html5-css3-input-styles/loading2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/loading60.gif" afterPath="$PROJECT_DIR$/html5-css3-input-styles/loading60.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/reload.png" afterPath="$PROJECT_DIR$/html5-css3-input-styles/reload.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/scss/main.css" afterPath="$PROJECT_DIR$/html5-css3-input-styles/scss/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/scss/main.css.map" afterPath="$PROJECT_DIR$/html5-css3-input-styles/scss/main.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input/scss/main.scss" afterPath="$PROJECT_DIR$/html5-css3-input-styles/scss/main.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/img/close.png" afterPath="$PROJECT_DIR$/sl-index-manager/img/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/img/delete.png" afterPath="$PROJECT_DIR$/sl-index-manager/img/delete.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/img/modify.png" afterPath="$PROJECT_DIR$/sl-index-manager/img/modify.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/manager/desdomo.html" afterPath="$PROJECT_DIR$/sl-index-manager/desdomo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/manager/discountdemo.html" afterPath="$PROJECT_DIR$/sl-index-manager/discountdemo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/manager/img/delete.png" afterPath="$PROJECT_DIR$/sl-index-manager/manager/img/delete.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/manager/img/modify.png" afterPath="$PROJECT_DIR$/sl-index-manager/manager/img/modify.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/manager/main.css" afterPath="$PROJECT_DIR$/sl-index-manager/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/manager/manager/main.js" afterPath="$PROJECT_DIR$/sl-index-manager/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sort/demo.html" afterPath="$PROJECT_DIR$/sort-demo/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/copy-canvas-start/canvasstar.js" afterPath="$PROJECT_DIR$/copy-canvas-start/canvasstar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/desdomo.html" afterPath="$PROJECT_DIR$/manager/desdomo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/discountdemo.html" afterPath="$PROJECT_DIR$/manager/discountdemo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/main.css" afterPath="$PROJECT_DIR$/manager/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manager/main.js" afterPath="$PROJECT_DIR$/manager/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css3-stars/index.html" afterPath="$PROJECT_DIR$/css3-stars/index.html" />
     </list>
     <ignored path="jsdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -788,31 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5-css3-checkbox-styles/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5-css3-input-styles/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="demo2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5-css3-input-styles/demo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="320">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -821,8 +40,8 @@
       <file leaf-file-name="desdomo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager/desdomo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -831,8 +50,8 @@
       <file leaf-file-name="desdomo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sl-index-manager/desdomo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="352">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -841,8 +60,8 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort-demo/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="288">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -851,8 +70,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tab/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="320">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -862,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/validate/demo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -871,18 +90,40 @@
       <file leaf-file-name="demo2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validate/demo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="2496">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css3-stars/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="101">
+              <caret line="68" column="71" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="176" column="27" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -946,9 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/div/demo2.html" />
-        <option value="$PROJECT_DIR$/简单纯js实现网页tab选项卡切换效果/main.js" />
-        <option value="$PROJECT_DIR$/简单纯js实现网页tab选项卡切换效果/index.html" />
         <option value="$PROJECT_DIR$/tab/main.js" />
         <option value="$PROJECT_DIR$/sort/demo.html" />
         <option value="$PROJECT_DIR$/tab/index.html" />
@@ -997,6 +235,9 @@
         <option value="$PROJECT_DIR$/manager/desdomo.html" />
         <option value="$PROJECT_DIR$/sl-index-manager/desdomo.html" />
         <option value="$PROJECT_DIR$/validate/demo2.html" />
+        <option value="$PROJECT_DIR$/css3-stars/index.html" />
+        <option value="$PROJECT_DIR$/canvas/demo1.html" />
+        <option value="$PROJECT_DIR$/canvas/index.html" />
       </list>
     </option>
   </component>
@@ -1013,13 +254,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/GulpBootStrapSass-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/bootstrap-4-dev/node_modules" />
     <handled-path value="$PROJECT_DIR$/bootstrap-sass-master/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1095,6 +338,16 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -1119,9 +372,15 @@
               <option name="myItemId" value="jsdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsdemo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1131,11 +390,25 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsdemo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css3-stars" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="canvas-star" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1178,7 +451,13 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsdemo/copy-canvas-start/index.html">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -1190,19 +469,10 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1352,6 +622,7 @@
       <workItem from="1501285499094" duration="6355000" />
       <workItem from="1501556708938" duration="16438000" />
       <workItem from="1501654918247" duration="157000" />
+      <workItem from="1501757234144" duration="4601000" />
     </task>
     <task id="LOCAL-00024" summary="增加slider demo">
       <created>1496578743961</created>
@@ -1700,7 +971,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334823000" />
+    <option name="totallyTimeSpent" value="339424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1712,26 +983,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1992561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24736226" sideWeight="0.5086562" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38518518" sideWeight="0.49134377" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32374102" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32374102" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5427902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1814,38 +1085,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oop/demo9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/demo8.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
-          <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/demo7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/demo6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1857,7 +1121,7 @@
     <entry file="file://$PROJECT_DIR$/email-51fang/conult.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1869,42 +1133,42 @@
     <entry file="file://$PROJECT_DIR$/qanda/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4186">
-          <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
+          <caret line="182" column="21" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qanda/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/photo/demo4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1089">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/photo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qanda/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional/demo3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1912,63 +1176,56 @@
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3159">
-          <caret line="111" column="42" lean-forward="false" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="42" />
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="27" />
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkbox/checkbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkbox/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-77">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkbox/checkbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkbox/ios-checkbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checkbox/rounded-chexkbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/canvasstar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1976,14 +1233,14 @@
     <entry file="file://$PROJECT_DIR$/checkbox/slider-checkbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="29" />
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
-          <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1992,98 +1249,95 @@
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/cache-optimization.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/cache-star.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/mydialog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/copy-canvas-start/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sl-index-manager/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sl-index-manager/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drag/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-353">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5-css3-checkbox-styles/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5-css3-input-styles/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="64">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5-css3-input-styles/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="320">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manager/desdomo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sl-index-manager/desdomo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="352">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2092,16 +1346,16 @@
     <entry file="file://$PROJECT_DIR$/slider/main.html" />
     <entry file="file://$PROJECT_DIR$/sort-demo/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="288">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tab/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="320">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -2110,7 +1364,7 @@
     <entry file="file://$PROJECT_DIR$/validate/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2118,16 +1372,34 @@
     <entry file="file://$PROJECT_DIR$/demo3.html" />
     <entry file="file://$PROJECT_DIR$/validate/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="2496">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css3-stars/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="101">
+          <caret line="68" column="71" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-star/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="176" column="27" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>

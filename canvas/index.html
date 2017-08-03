@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    </style>
+</head>
+<body>
+<canvas id="canvas" width="800px" height="800px"></canvas>
+<script>
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext("2d");
+    context.fillRect(0, 0, 100, 100);
+    context.strokeRect(120, 0, 100, 100);
+    //设置纯色
+    context.fillStyle = "pink";
+    context.strokeStyle = "darkred";
+    context.fillRect(0, 120, 100, 100);
+    context.strokeRect(120, 120, 100, 100);
+    context.clearRect( 50,50,120,120)
+
+    context.beginPath();
+    context.arc(300, 350, 100, 0, Math.PI * 2, true);
+    //不关闭路径路径会一直保留下去，当然也可以利用这个特点做出意想不到的效果
+    context.closePath();
+    context.fillStyle = 'pink';
+    context.fill();
+</script>
+</body>
+</html>
