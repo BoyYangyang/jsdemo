@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            width: 174px;
+        }
+        .flex-container1,.flex-container2,.flex-container3,.flex-container4,.flex-container5{
+            padding: 15px;
+            display: -webkit-inline-flex;
+            width: 810px;
+            height: 220px;
+            background: powderblue;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 10px;
+            float: left;
+            margin-right: 10px;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            flex-direction: row;
+
+        }
+        .flex-container2{
+            align-items: flex-end;
+        }
+        .flex-container3{
+            align-items: center;
+        }
+        .flex-container4{
+            align-items: baseline;
+        }
+        .flex-container5{
+            align-items: stretch;
+        }
+        .flex-item1,.flex-item2,.flex-item3,.flex-item4,.flex-item5{
+            flex: 0 0 160px;
+            height: 80px;
+            color: #fff;
+            background: pink;
+            margin: 10px;
+
+        }
+        .flex-item1:nth-child(3){
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+
+<div class="flex-container1">
+    <div class="flex-item1">align-items: flex-start;</div>
+    <div class="flex-item1">align-items: flex-start;</div>
+    <div class="flex-item1">align-self: flex-end</div>
+    <div class="flex-item1">align-items: flex-start;</div>
+</div>
+
+</body>
+</html>

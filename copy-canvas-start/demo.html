@@ -26,7 +26,7 @@
             top: 0;
             left: 0;
             background: #fe5757;
-            animation: colorChange 30s ease-in-out infinite;
+            animation: colorChange 2s ease-in-out infinite;
             animation-fill-mode: both;
             mix-blend-mode: overlay;
 
@@ -44,7 +44,7 @@
 </head>
 <body>
 <div class="filter"></div>
-<canvas id="main-canvas"></canvas>
+<!--<canvas id="main-canvas"></canvas>-->
 <script>
 
     /*
@@ -80,10 +80,11 @@
         mouseMoveChecker,
         mouseX,
         mouseY;
-    /*设置单个star
+    /* 设置单个star
      * @param id：id
      * @param x：x坐标
      * @param y：y坐标
+     * @param useCache：是否使用缓存
      * */
     function Star(id, x, y, useCache) {
         this.id = id;
