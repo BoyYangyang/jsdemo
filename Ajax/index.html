@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="提交" onclick="Ajax()">
+<div id="resText"></div>
+<script>
+    function Ajax() {                            // 定义一个函数，通过该函数来获取异步信息
+        var xmlHttpReq = null;                   // 声明一个空对象来装入 XMLHttpRequest 对象
+        if(window.XMLHttpRequest){
+            xmlHttpReq = new XMLHttpRequest();   // 实例化一个 XMLHttpRequest 对象
+
+        }
+
+        xmlHttpReq.open("GET","test.php",true);   // 调用 open() 方法并采用异步方式
+
+        xmlHttpReq.onreadystatechange = RequestCallBack;
+
+        xmlHttpReq.send(null);
+
+        function RequestCallBack() {
+            if(xmlHttpReq.readyState == 4){
+                if(xmlHttpReq.status == 200){
+                    document.getElementById("resText").innerHTML = xmlHttpReq.responseText;
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
