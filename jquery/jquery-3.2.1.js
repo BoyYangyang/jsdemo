@@ -13,6 +13,7 @@
  */
 ( function( global, factory ) {
 
+	
 	"use strict";
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
@@ -24,6 +25,10 @@
 		// This accentuates the need for the creation of a real `window`.
 		// e.g. var jQuery = require("jquery")(window);
 		// See ticket #14549 for more info.
+		// 当 CommonJS 和类 CommonJS 环境当存在并执行一个适当的 `window` 和获取 jQuery 的时候。
+		// 对没有 `document` 的 `window` 环境（像是 Node.js），暴露一个可以作为 module.export 的工场
+		// 这加重了需要一个真正的 `window` 的需求。
+		// 例如： var jQuery = require("jquery")(window);
 		module.exports = global.document ?
 			factory( global, true ) :
 			function( w ) {
@@ -37,12 +42,16 @@
 	}
 
 // Pass this if window is not defined yet
+// 跳过这里如果 window 还没有定义
 } )( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
 
 // Edge <= 12 - 13+, Firefox <=18 - 45+, IE 10 - 11, Safari 5.1 - 9+, iOS 6 - 9.1
 // throw exceptions when non-strict code (e.g., ASP.NET 4.5) accesses strict mode
 // arguments.callee.caller (trac-13335). But as of jQuery 3.0 (2016), strict mode should be common
 // enough that all such attempts are guarded in a try block.
+// Edge <= 12 - 13+, Firefox <=18 - 45+, IE 10 - 11, Safari 5.1 - 9+, iOS 6 - 9.1
+// 非严格的代码（如 ASP.NET 4.5）访问严格模式 arguments.callee.caller (trac-13335) 时会抛出异常
+// 但是在使用jQuery 3.0（2016）的时候，严格模式已经很普遍，可以使用 try 语句避免错误。
 "use strict";
 
 var arr = [];
