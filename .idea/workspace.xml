@@ -39,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zepto/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="23">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -105,8 +105,8 @@
       <file leaf-file-name="zepto-cn.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zepto/zepto-cn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="88" column="76" lean-forward="false" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
+            <state relative-caret-position="11753">
+              <caret line="513" column="0" lean-forward="true" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -114,10 +114,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="zepto.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zepto/zepto.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="jquery-2.1.1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery/jquery-2.1.1/jquery-2.1.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204818">
+            <state relative-caret-position="46">
               <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -142,8 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stars</find>
-      <find>aReduction</find>
       <find>mouseY</find>
       <find>xVariation</find>
       <find>ctx</find>
@@ -172,6 +180,8 @@
       <find>deep</find>
       <find>Zepto</find>
       <find>init</find>
+      <find>Z</find>
+      <find>qsa</find>
     </findStrings>
     <replaceStrings>
       <replace>this</replace>
@@ -350,7 +360,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -447,6 +456,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -675,14 +685,8 @@
       <workItem from="1503044440807" duration="332000" />
       <workItem from="1503234604398" duration="15713000" />
       <workItem from="1503652945016" duration="3027000" />
-      <workItem from="1503717908506" duration="8938000" />
-    </task>
-    <task id="LOCAL-00030" summary="增加oop类继承">
-      <created>1497193675666</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1497193675666</updated>
+      <workItem from="1503717908506" duration="13048000" />
+      <workItem from="1503920960780" duration="3000" />
     </task>
     <task id="LOCAL-00031" summary="增加oop类继承">
       <created>1497280931997</created>
@@ -1020,11 +1024,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503717776028</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="增加 zepto 源码分析&#10;">
+      <created>1503841056296</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1503841056298</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415785000" />
+    <option name="totallyTimeSpent" value="419898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1134,7 +1145,8 @@
     <MESSAGE value="增加 jquery 源码&#10;" />
     <MESSAGE value="增加 jquery 源码中文版&#10;" />
     <MESSAGE value="增加 zepto 源码&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加 zepto 源码&#10;" />
+    <MESSAGE value="增加 zepto 源码分析&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 zepto 源码分析&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,8 +1156,13 @@
           <line>84</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.html</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1399,39 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7820">
           <caret line="354" column="5" lean-forward="false" selection-start-line="354" selection-start-column="5" selection-end-line="354" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#9065#18105#0" expanded="false" />
-            <element signature="e#18181#18280#0" expanded="false" />
-            <element signature="e#18360#18394#0" expanded="false" />
-            <element signature="e#18411#18500#0" expanded="false" />
-            <element signature="e#18667#18805#0" expanded="false" />
-            <element signature="e#19178#19495#0" expanded="false" />
-            <element signature="e#19528#19789#0" expanded="false" />
-            <element signature="e#19791#19853#0" expanded="false" />
-            <element signature="e#19970#20571#0" expanded="false" />
-            <element signature="e#20588#20621#0" expanded="false" />
-            <element signature="e#20634#25232#0" expanded="false" />
-            <element signature="e#25253#25487#0" expanded="false" />
-            <element signature="e#25563#27588#0" expanded="false" />
-            <element signature="e#27609#28463#0" expanded="false" />
-            <element signature="e#28480#29388#0" expanded="false" />
-            <element signature="e#29409#30355#0" expanded="false" />
-            <element signature="e#30614#36209#0" expanded="false" />
-            <element signature="e#36227#39417#0" expanded="false" />
-            <element signature="e#39476#39561#0" expanded="false" />
-            <element signature="e#39733#53721#0" expanded="false" />
-            <element signature="e#53805#53860#0" expanded="false" />
-            <element signature="e#53977#54412#0" expanded="false" />
-            <element signature="e#54696#55649#0" expanded="false" />
-            <element signature="e#55825#56466#0" expanded="false" />
-            <element signature="e#56612#56688#0" expanded="false" />
-            <element signature="e#56746#56799#0" expanded="false" />
-            <element signature="e#57171#58008#0" expanded="false" />
-            <marker date="1410750278000" expanded="true" signature="20900:20933" ph="..." />
-            <marker date="1410750278000" expanded="true" signature="157019:157112" ph="..." />
-            <marker date="1410750278000" expanded="true" signature="157145:157238" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1446,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,19 +1473,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zepto/zepto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37171">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery/jquery-2.1.1/jquery-2.1.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204818">
+        <state relative-caret-position="46">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1735,10 +1708,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zepto/zepto-cn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="88" column="76" lean-forward="false" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
+        <state relative-caret-position="11753">
+          <caret line="513" column="0" lean-forward="true" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1747,8 +1728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zepto/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="23">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
