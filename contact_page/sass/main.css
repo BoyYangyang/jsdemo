@@ -1,0 +1,233 @@
+/*base*/
+/*reset*/
+a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+  text-decoration: none; }
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  tap-highlight-color: transparent; }
+
+li {
+  list-style: none; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, td, th {
+  text-align: left;
+  font-weight: 400;
+  float: none !important; }
+
+table, td, th {
+  vertical-align: middle; }
+
+em, i {
+  font-style: normal; }
+
+a, img {
+  border: none;
+  text-decoration: none;
+  outline: 0; }
+
+:focus {
+  outline: 0; }
+
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix:after, .clearfix:before {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+input[type=reset]::-moz-focus-inner, input[type=button]::-moz-focus-inner, input[type=submit]::-moz-focus-inner, input[type=file] > input[type=button]::-moz-focus-inner {
+  border: none;
+  padding: 0; }
+
+figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0; }
+
+.animate {
+  -moz-transition: all .3s ease .3s;
+  -webkit-transition: all .3s ease .3s;
+  -o-transition: all .3s ease .3s;
+  transition: all 0.3s ease 0.3s; }
+
+.animate1 {
+  -moz-transition: all .1s ease .3s;
+  -webkit-transition: all .1s ease .3s;
+  -o-transition: all .1s ease .3s;
+  transition: all 0.1s ease 0.3s; }
+
+html {
+  width: 100%; }
+
+input:focus {
+  outline: 0; }
+
+/*contact-page_css*/
+body {
+  background-color: #f8f8f8;
+  color: #444;
+  font: 12px/180% Arial, Helvetica, sans-serif; }
+
+.contact_top {
+  width: 100%;
+  background: #fff; }
+
+.contact_main_title {
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  height: 1.14667rem;
+  line-height: 1.14667rem; }
+
+.questions-list {
+  background: #fff;
+  padding: 0 0px 0px 14px;
+  vertical-align: bottom;
+  margin-bottom: 0.18667rem; }
+  .questions-list ul {
+    width: 96%; }
+  .questions-list ul li:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7; }
+
+.contact-question-list {
+  height: 1.33333rem;
+  line-height: 1.33333rem;
+  border-bottom: 1px solid #e7e7e7; }
+  .contact-question-list .contact_question1_icon {
+    width: 0.48rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -0.10667rem; }
+  .contact-question-list p {
+    display: inline-block;
+    margin-left: 0.24rem; }
+
+.contact-ask {
+  width: 100%;
+  height: 0.93333rem;
+  line-height: 0.93333rem;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block; }
+  .contact-ask h5 {
+    width: 91%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0.10667rem; }
+
+.contact-question {
+  display: none; }
+
+.contact_bottom {
+  bottom: 0;
+  position: fixed;
+  width: 100%; }
+  .contact_bottom .contact_bottom_left {
+    background: #ff8000;
+    color: #fff;
+    width: 50%;
+    height: 1.38667rem;
+    line-height: 1.38667rem;
+    float: left;
+    text-align: center;
+    display: inline-block; }
+  .contact_bottom .contact_bottom_left p, .contact_bottom .contact_bottom_right p {
+    display: inline-block; }
+  .contact_bottom .contact_bottom_left_img, .contact_bottom .contact_bottom_right_img {
+    width: 13%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5%; }
+  .contact_bottom .contact_bottom_right {
+    background: #fff;
+    color: #000;
+    width: 50%;
+    height: 1.38667rem;
+    line-height: 1.38667rem;
+    display: inline-block;
+    text-align: center; }
+
+.contact-down-icon {
+  position: relative;
+  top: -0.30667rem;
+  right: -0.13333rem;
+  display: inline-block;
+  width: 23px;
+  height: 8px;
+  overflow: hidden;
+  background: url(../images/contact-arrow.png) 0px -9px no-repeat; }
+
+.contact-up-icon {
+  display: inline-block;
+  width: 23px;
+  height: 8px;
+  overflow: hidden;
+  background: url(../images/contact-arrow.png) 0px 0px no-repeat;
+  position: relative;
+  right: -0.13333rem;
+  top: -0.30667rem; }
+
+/*# sourceMappingURL=main.css.map */
