@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            width: 320px;
+        }
+        .flex-container1,.flex-container2,.flex-container3,.flex-container4{
+            padding: 15px;
+            display: flex;
+            width: 310px;
+            height: 80px;
+            background: powderblue;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 10px;
+            float: left;
+            margin-right: 10px;
+        }
+        .flex-container3{
+            flex-wrap: wrap;
+        }
+        .flex-container4{
+            flex-wrap: wrap-reverse;
+        }
+        .flex-item1,.flex-item3,.flex-item4{
+            flex: 0 0 80px;
+            height: 30px;
+            color: #fff;
+            background: pink;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="flex-container1">
+    <div class="flex-item1">1</div>
+    <div class="flex-item1">2</div>
+    <div class="flex-item1">3</div>
+    <div class="flex-item1">4</div>
+</div>
+
+
+<div class="flex-container3">
+
+    <div class="flex-item3">1</div>
+    <div class="flex-item3">2</div>
+    <div class="flex-item3">3</div>
+    <div class="flex-item3">4</div>
+</div>
+
+<div class="flex-container4">
+
+    <div class="flex-item4">1</div>
+    <div class="flex-item4">2</div>
+    <div class="flex-item4">3</div>
+    <div class="flex-item4">4</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5 {
+            padding: 15px;
+            display: inline-flex;
+            width: 310px;
+            height: 40px;
+            background: powderblue;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 10px;
+            float: left;
+            margin-right: 10px;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+        }
+
+        .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
+            flex-basis: 80px;
+            height: 20px;
+            color: #fff;
+            background: pink;
+            margin: 10px;
+
+        }
+
+
+        .flex-item1:nth-child(1) {
+            flex-shrink: 1;
+        }
+
+        .flex-item1:nth-child(2) {
+            flex-shrink: 1;
+        }
+
+        .flex-item1:nth-child(3) {
+            flex-shrink: 1;
+        }
+
+        .flex-item1:nth-child(4) {
+            flex-shrink: 1;
+        }
+
+        .flex-item2:nth-child(1) {
+            flex-shrink: 1;
+        }
+
+        .flex-item2:nth-child(2) {
+            flex-shrink: 1;
+        }
+
+        .flex-item2:nth-child(3) {
+            flex-shrink: 2;
+        }
+
+        .flex-item2:nth-child(4) {
+            flex-shrink: 2;
+        }
+
+        .flex-item3:nth-child(1) {
+            flex-shrink: 0;
+        }
+
+        .flex-item3:nth-child(2) {
+            flex-shrink: 0;
+        }
+
+        .flex-item3:nth-child(3) {
+            flex-shrink: 0;
+        }
+
+        .flex-item3:nth-child(4) {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="flex-container1">
+    <div class="flex-item1">1</div>
+    <div class="flex-item1">1</div>
+    <div class="flex-item1">1</div>
+    <div class="flex-item1">1</div>
+</div>
+
+<div class="flex-container2">
+    <div class="flex-item2">9</div>
+    <div class="flex-item2">7</div>
+    <div class="flex-item2">5</div>
+    <div class="flex-item2">3</div>
+</div>
+
+<div class="flex-container3">
+
+    <div class="flex-item3">0</div>
+    <div class="flex-item3">0</div>
+    <div class="flex-item3">0</div>
+    <div class="flex-item3">0</div>
+</div>
+
+
+</body>
+</html>
