@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7041e6b-3987-4a11-89b3-73102dde76c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas-line/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zepto" afterPath="$PROJECT_DIR$/zepto" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,16 +42,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rsingleTag.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery/jquery-git/src/core/var/rsingleTag.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,11 +96,21 @@
       <file leaf-file-name="zepto-cn.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zepto/zepto-cn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="495" column="45" lean-forward="true" selection-start-line="495" selection-start-column="45" selection-end-line="495" selection-end-column="45" />
+            <state relative-caret-position="249">
+              <caret line="436" column="19" lean-forward="false" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas-line/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,7 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ctx</find>
       <find>linkColor</find>
       <find>shadowColor</find>
       <find>speed</find>
@@ -179,9 +179,10 @@
       <find>Zepto</find>
       <find>init</find>
       <find>Z</find>
-      <find>qsa</find>
       <find>zepto.z</find>
       <find>zepto.Z</find>
+      <find>qsa</find>
+      <find>Math</find>
     </findStrings>
     <replaceStrings>
       <replace>this</replace>
@@ -196,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/copy-canvas-start/index2.html" />
         <option value="$PROJECT_DIR$/copy-canvas-start/canvasstar.js" />
         <option value="$PROJECT_DIR$/copy-canvas-start/index.html" />
         <option value="$PROJECT_DIR$/copy-canvas-start/index6.html" />
@@ -247,6 +247,7 @@
         <option value="$PROJECT_DIR$/zepto/zepto.js" />
         <option value="$PROJECT_DIR$/zepto/zepto-cn.js" />
         <option value="$PROJECT_DIR$/zepto/index.html" />
+        <option value="$PROJECT_DIR$/canvas-line/index.html" />
       </list>
     </option>
   </component>
@@ -456,6 +457,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsdemo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas-line" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -478,19 +493,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/canvas-line" />
+      <recent name="$PROJECT_DIR$/qanda" />
+      <recent name="E:\github\jsdemo\manager\img" />
+      <recent name="F:\github\jsdemo\slider" />
+      <recent name="E:\github\jsdemo\table" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/grid" />
       <recent name="$PROJECT_DIR$/validate" />
       <recent name="$PROJECT_DIR$/sl-index-manager" />
       <recent name="E:\github\jsdemo\bootstrap-sass-master\.tmp" />
       <recent name="E:\github\jsdemo\bootstrap-sass-master\.tmp\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/qanda" />
-      <recent name="E:\github\jsdemo\manager\img" />
-      <recent name="F:\github\jsdemo\slider" />
-      <recent name="E:\github\jsdemo\table" />
-      <recent name="E:\github\jsdemo" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -688,14 +703,7 @@
       <workItem from="1503652945016" duration="3027000" />
       <workItem from="1503717908506" duration="13048000" />
       <workItem from="1503920960780" duration="3000" />
-      <workItem from="1504105107405" duration="614000" />
-    </task>
-    <task id="LOCAL-00031" summary="增加oop类继承">
-      <created>1497280931997</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1497280931997</updated>
+      <workItem from="1504105107405" duration="2703000" />
     </task>
     <task id="LOCAL-00032" summary="增加oop类继承">
       <created>1497364163847</created>
@@ -1033,11 +1041,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503841056298</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="增加 zepto 源码分析&#10;">
+      <created>1504106719493</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1504106719493</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420512000" />
+    <option name="totallyTimeSpent" value="422601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1052,7 +1067,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24736226" sideWeight="0.5086562" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,13 +1179,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/copy-canvas-start/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="119" column="10" lean-forward="false" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flex/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1721,10 +1729,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-line/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zepto/zepto-cn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="495" column="45" lean-forward="true" selection-start-line="495" selection-start-column="45" selection-end-line="495" selection-end-column="45" />
+        <state relative-caret-position="249">
+          <caret line="436" column="19" lean-forward="false" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
