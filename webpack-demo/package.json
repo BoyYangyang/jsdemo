@@ -1,0 +1,17 @@
+{
+  "name": "webpack-sample-project",
+  "version": "1.0.0",
+  "description": "Sample webpack project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open"
+  },
+
+  "author": "zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.9"
+  }
+}
+
