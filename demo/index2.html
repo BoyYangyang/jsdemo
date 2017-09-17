@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    fn = function () {
+        console.log(this.name)
+    }
+
+    var name = "windowsName";
+    var a = {
+        name: "Cherry",
+        fn : function () {
+            console.log(this.name);      // windowsName
+        }
+    }
+
+    var f = a.fn;
+    f.apply(a);
+
+</script>
+</body>
+</html>

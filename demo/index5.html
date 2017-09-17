@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var o = {
+        x : 1,
+        func : function() { console.log(this.x) },
+        test : function() {
+            setTimeout(() => {
+                this.func() ;
+                console.log(this)
+            }, 100);
+        }
+    };
+
+    o.test();
+</script>
+
+</body>
+</html>

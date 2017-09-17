@@ -23,7 +23,7 @@ const Util = (($) => {
     MozTransition    : 'transitionend',
     OTransition      : 'oTransitionEnd otransitionend',
     transition       : 'transitionend'
-  }
+  };
 
   // shoutout AngusCroll (https://goo.gl/pxwQGp)
   function toType(obj) {
@@ -153,12 +153,12 @@ const Util = (($) => {
         }
       }
     }
-  }
+  };
 
-  setTransitionEndSupport()
+  setTransitionEndSupport();
 
   return Util
 
-})(jQuery)
+})(jQuery);
 
 export default Util

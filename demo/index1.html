@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    "use strict";
+    var name = "windowsName";
+    function a() {
+        var name = "Cherry";
+
+        console.log(this.name);          // windowsName
+
+        console.log("inner:" + this);    // inner: windows
+    }
+    a();
+    console.log("outer:" + this)         // inner: windows
+</script>
+</body>
+</html>

@@ -17,29 +17,29 @@ const Alert = (($) => {
    * ------------------------------------------------------------------------
    */
 
-  const NAME                = 'alert'
-  const VERSION             = '4.0.0-beta'
-  const DATA_KEY            = 'bs.alert'
-  const EVENT_KEY           = `.${DATA_KEY}`
-  const DATA_API_KEY        = '.data-api'
-  const JQUERY_NO_CONFLICT  = $.fn[NAME]
-  const TRANSITION_DURATION = 150
+  const NAME                = 'alert';
+  const VERSION             = '4.0.0-beta';
+  const DATA_KEY            = 'bs.alert';
+  const EVENT_KEY           = `.${DATA_KEY}`;
+  const DATA_API_KEY        = '.data-api';
+  const JQUERY_NO_CONFLICT  = $.fn[NAME];
+  const TRANSITION_DURATION = 150;
 
   const Selector = {
     DISMISS : '[data-dismiss="alert"]'
-  }
+  };
 
   const Event = {
     CLOSE          : `close${EVENT_KEY}`,
     CLOSED         : `closed${EVENT_KEY}`,
     CLICK_DATA_API : `click${EVENT_KEY}${DATA_API_KEY}`
-  }
+  };
 
   const ClassName = {
     ALERT : 'alert',
     FADE  : 'fade',
     SHOW  : 'show'
-  }
+  };
 
 
   /**
@@ -65,10 +65,10 @@ const Alert = (($) => {
     // public
 
     close(element) {
-      element = element || this._element
+      element = element || this._element;
 
-      const rootElement = this._getRootElement(element)
-      const customEvent = this._triggerCloseEvent(rootElement)
+      const rootElement = this._getRootElement(element);
+      const customEvent = this._triggerCloseEvent(rootElement);
 
       if (customEvent.isDefaultPrevented()) {
         return
@@ -78,7 +78,7 @@ const Alert = (($) => {
     }
 
     dispose() {
-      $.removeData(this._element, DATA_KEY)
+      $.removeData(this._element, DATA_KEY);
       this._element = null
     }
 
@@ -86,8 +86,8 @@ const Alert = (($) => {
     // private
 
     _getRootElement(element) {
-      const selector = Util.getSelectorFromElement(element)
-      let parent     = false
+      const selector = Util.getSelectorFromElement(element);
+      let parent     = false;
 
       if (selector) {
         parent = $(selector)[0]
@@ -101,18 +101,18 @@ const Alert = (($) => {
     }
 
     _triggerCloseEvent(element) {
-      const closeEvent = $.Event(Event.CLOSE)
+      const closeEvent = $.Event(Event.CLOSE);
 
-      $(element).trigger(closeEvent)
+      $(element).trigger(closeEvent);
       return closeEvent
     }
 
     _removeElement(element) {
-      $(element).removeClass(ClassName.SHOW)
+      $(element).removeClass(ClassName.SHOW);
 
       if (!Util.supportsTransitionEnd() ||
           !$(element).hasClass(ClassName.FADE)) {
-        this._destroyElement(element)
+        this._destroyElement(element);
         return
       }
 
@@ -133,11 +133,11 @@ const Alert = (($) => {
 
     static _jQueryInterface(config) {
       return this.each(function () {
-        const $element = $(this)
-        let data       = $element.data(DATA_KEY)
+        const $element = $(this);
+        let data       = $element.data(DATA_KEY);
 
         if (!data) {
-          data = new Alert(this)
+          data = new Alert(this);
           $element.data(DATA_KEY, data)
         }
 
@@ -170,7 +170,7 @@ const Alert = (($) => {
     Event.CLICK_DATA_API,
     Selector.DISMISS,
     Alert._handleDismiss(new Alert())
-  )
+  );
 
 
   /**
@@ -179,15 +179,15 @@ const Alert = (($) => {
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME]             = Alert._jQueryInterface
-  $.fn[NAME].Constructor = Alert
+  $.fn[NAME]             = Alert._jQueryInterface;
+  $.fn[NAME].Constructor = Alert;
   $.fn[NAME].noConflict  = function () {
-    $.fn[NAME] = JQUERY_NO_CONFLICT
+    $.fn[NAME] = JQUERY_NO_CONFLICT;
     return Alert._jQueryInterface
-  }
+  };
 
   return Alert
 
-})(jQuery)
+})(jQuery);
 
 export default Alert
