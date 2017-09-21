@@ -14,10 +14,13 @@
 
     var a = function () {
 
-        fn = () => {
-            var name = 'Cherry';
-            console.log(this.name)
+        fn : function () {
+            fn = () => {
+                var name = 'Cherry';
+                console.log(this.name)
+            }
         }
+
 
         fn();
     }

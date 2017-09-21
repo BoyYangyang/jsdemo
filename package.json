@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sunshine940326/jsdemo#readme",
   "dependencies": {
+    "picnic": "^6.4.0",
     "sortablejs": "^1.5.1"
   }
 }

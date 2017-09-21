@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a ={
+        name : "Cherry",
+        fn : function (a,b) {
+            console.log( a + b)
+        }
+    }
+
+    var b = a.fn;
+    b.bind(a,1,2)()
+</script>
+
+</body>
+</html>

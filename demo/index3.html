@@ -8,14 +8,23 @@
 <script>
 
 
+    var name = 'windows';
 
     var a = {
         name: "Cherry",
         fn : () => {
-            console.log(this)
+            console.log(this.name)
         }
     }
     a.fn()
+
+    var b = {
+        name : 'yanmeng',
+        fn : function () {
+            console.log(this.name)
+        }
+    }
+    b.fn()
 </script>
 </body>
 </html>
