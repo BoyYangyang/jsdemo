@@ -6,7 +6,27 @@
     <script src="jquery-1.4.2/jquery.js"></script>
 </head>
 <body>
-<script>console.log($())</script>
+
+
+<li><label>支局：</label>
+
+    <div class="select">
+        <input id="chnl_name" type="text" placeholder="请选择" value=""
+               readonly="readonly"> <input id="chnl_id" type="hidden"
+                                           value=""> <i class="iconfont gray-a0a0a0 f14">&#xe616;</i>
+        <ul id="chnl_select"></ul>
+        <p class="clear"></p>
+    </div></li>
+
+
+
+<script>
+    if( !$('#chnl_id').length){
+        console.log(1)
+    }else{
+        console.log(2)
+    }
+</script>
 
 </body>
 </html>

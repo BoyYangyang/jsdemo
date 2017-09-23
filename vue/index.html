@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <template >
+        <p v-if="greeting">{{ message }}</p>
+        <p v-else="greeting">{{ message_wrong }}</p>
+    </template>
+
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data :{
+            greeting : false,
+            message : "if",
+            message_wrong: "else"
+        }
+
+    })
+</script>
+</body>
+</html>
