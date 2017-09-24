@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<ul id="app">
+    <li v-for="(item, index) in items" :class=" 'item-' + index">
+        {{index}} - {{parentMessage}} {{item.msg}}
+    </li>
+</ul>
+<script>
+    new Vue({
+        el: '#app',
+        data : {
+            parentMessage : "滴滴",
+            items:[
+                { msg : '滴滴顺风车'},
+                { msg : '滴滴专车'}
+            ]
+        }
+    })
+</script>
+
+</body>
+</html>
