@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="vue.js"></script>
 </head>
 <body>
+<div id="app">
+    <div v-for="(value,key,index) in object">
+        {{index}}.{{ key }} : {{value}}
+    </div>
 
+</div>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            object:{
+                name: '张三',
+                sex: '男',
+                age: 12
+            }
+
+        }
+    })
+</script>
 </body>
 </html>
