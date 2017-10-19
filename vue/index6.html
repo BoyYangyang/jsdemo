@@ -7,6 +7,16 @@
 
 </head>
 <body>
-
+<input id="app" type="button" value="btn" v-on:click="showMsg">
+<script>
+    new Vue({
+        el: "#app",
+        methods:{
+            showMsg: function (e) {
+                console.log(this)
+            }
+        }
+    })
+</script>
 </body>
 </html>
