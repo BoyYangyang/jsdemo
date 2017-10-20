@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = [1, [2, [3, 4, [7, 7, 8]]], [5], 6];
+
+
+    function handler(arr) {
+        var str = arr.toString();
+        str = str.replace(/[\[\]]/g, ' ');
+        return str.split(",");
+    }
+
+    handler(a)
+</script>
+</body>
+</html>

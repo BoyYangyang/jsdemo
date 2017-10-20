@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a ={a:1};
+    var b ={b:2};
+    function inherit(a, b) {
+        var _result = Object.create(b)
+        Object.keys(a).forEach(key => {
+            _result[key] = a[key]
+        })
+        return _result
+    }
+
+    inherit(a,b);
+
+</script>
+
+</body>
+</html>
