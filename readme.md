@@ -27,6 +27,8 @@
 ├── sort-demo                   // 使用 sort 插件 demo
 └── tab
 ```
+
+```
 <script>
     var a = [1, [2, [3, 4, [7, 7, 8]]], [5], 6];
 
@@ -126,3 +128,4 @@
     console.log(_result)
 
 </script>
+```
