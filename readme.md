@@ -28,3 +28,104 @@
 └── tab
 ```
 
+```
+<script>
+    var a = [1, [2, [3, 4, [7, 7, 8]]], [5], 6];
+
+
+    function handler(arr) {
+        var str = JSON.stringify(arr);
+        console.log(str)
+        str = str.replace(/[\[\]]/g, '');
+        console.log(str)
+        arr = eval('[' + str + ']');
+        return arr;
+    }
+
+    handler(a);
+</script>
+<script>
+    var a = [1, [2, [3, 4, [7, 7, 8]]], [5], 6];
+
+
+    function handler(arr) {
+        for (var i = 0; i < arr.length; i++) {
+            if (Array.isArray(arr[i])) {
+                arr.splice(i, 1)[0].map(function (item, index) {
+                    arr.splice(i + index, 0, item);
+                })
+            }
+        }
+        return arr;
+    }
+    handler(a);
+</script>
+
+<script>
+    var a = [1, [2, [3, 4, [7, 7, 8]]], [5], 6];
+
+    function flat(arr) {
+        return arr.reduce(
+            function (acc, val) {
+                return acc.concat(Array.isArray(val) ? flat(val) : val)
+            }, []);
+    }
+
+    flat(a);
+</script>
+
+<script>
+    var a = [1, [2, [3, 4, [7, 7, 8]]], [5], 6];
+
+    function handler(arr) {
+        var str = arr.toString();
+        str = str.replace(/[\[\]]/g, ' ');
+        return str.split(",");
+    }
+
+    handler(a)
+</script>
+数组去重
+<script>
+    var arr = [1,1,1,1,2,3,3,4,5,7,7,7];
+    function unique(arr){
+        return Array.from(new Set(arr))
+    }
+    unique(arr)
+</script>
+<script>
+    var arr = [1,1,1,1,2,3,3,4,5,7,7,7];
+    function unique(arr){
+        var ret = [];
+        arr.forEach(function (item) {
+            if(ret.indexOf(item) === -1){
+                ret.push(item)
+            }
+        });
+        return ret;
+    }
+    unique(arr)
+</script>
+继承
+<script>
+    var a = [1,2,3];
+    var b = [4,5,6];
+    var deepCopy = function(_result,a) {
+        for (var k in a) {
+            _result[k] = typeof a[k] ==='object' ? deepCopy(a[k]) : a[k]
+        }
+        return _result
+    };
+    function inherit(a, b) {
+        var _result = Object.create(b);
+        Object.assign(_result,a);
+        /*Object.keys(a).forEach(key => {
+            _result[key] = a[key]
+        });*/
+        return _result
+    }
+    inherit(a,b);
+    console.log(_result)
+
+</script>
+```
