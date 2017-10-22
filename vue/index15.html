@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = [1,2,3];
+    var b = [4,5,6];
+    var deepCopy = function(_result,a) {
+        for (var k in a) {
+            _result[k] = typeof a[k] ==='object' ? deepCopy(a[k]) : a[k]
+        }
+        return _result
+    };
+    function inherit(a, b) {
+        var _result = Object.create(b);
+        Object.assign(_result,a);
+        /*Object.keys(a).forEach(key => {
+            _result[key] = a[key]
+        });*/
+        return _result
+    }
+    inherit(a,b);
+    console.log(_result)
+
+</script>
+</body>
+</html>

@@ -26,10 +26,10 @@
 
 
     function handler(arr) {
-        for (var i=0;i<arr.length;i++){
-            if(Array.isArray(arr[i])){
-                arr.splice(i,1)[0].map(function (item,index) {
-                    arr.splice(i+index,0,item);
+        for (var i = 0; i < arr.length; i++) {
+            if (Array.isArray(arr[i])) {
+                arr.splice(i, 1)[0].map(function (item, index) {
+                    arr.splice(i + index, 0, item);
                 })
             }
         }
@@ -43,8 +43,8 @@
 
     function flat(arr) {
         return arr.reduce(
-            function(acc, val) {
-                return acc.concat(Array.isArray(val)? flat(val): val)
+            function (acc, val) {
+                return acc.concat(Array.isArray(val) ? flat(val) : val)
             }, []);
     }
 

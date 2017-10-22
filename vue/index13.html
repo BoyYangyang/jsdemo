@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [1,1,1,1,2,3,3,4,5,7,7,7];
+    function unique(arr){
+        return Array.from(new Set(arr))
+    }
+    unique(arr)
+</script>
+<script>
+    var arr = [1,1,1,1,2,3,3,4,5,7,7,7];
+    function unique(arr){
+        var ret = [];
+        arr.forEach(function (item) {
+            if(ret.indexOf(item) === -1){
+                ret.push(item)
+            }
+        });
+        return ret;
+    }
+    unique(arr)
+</script>
+</body>
+</html>
