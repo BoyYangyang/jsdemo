@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var tree = {
+        {name:'b',id:1,label: 'b',child:[{name:'b-1',id:11,label:'bb'},{name:'b-2',id:111,label:'bbb'}}
+    }
+
+    var arr =[1,22,1,222];
+    for( var i =0; i < arr.length; i++){
+       if( arr[i] < arr[i+1]){
+           var _temp;
+           arr[i] = _temp;
+           arr[i+1] = arr[i]
+       }
+    }
+
+    fn(5) = 5*4*3*2*1
+    function jiecheng(num){
+        var result = 1;
+        for( var i = 0;i< num; i++){
+            result = result * [result -1]
+        }
+        return result;
+    }
+    jiecheng(5)
+
+</script>
+
+</body>
+</html>
